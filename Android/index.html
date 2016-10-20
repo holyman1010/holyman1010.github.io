@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Android G Market</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/index_1.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.roundabout.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/reflection.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/auto_height.js"></script>
+<script>
+      $(document).ready(function() {
+        $('#roundabout img').reflect();
+        $('#roundabout').roundabout({
+			  autoplay: true,
+			  autoplayDuration: 3000,
+			  reflect: true,
+			});
+        $(".fancy").fancybox({
+          maxWidth    : 800,
+          maxHeight   : 600,
+          fitToView   : false,
+          width       : '70%',
+          height      : '70%',
+          autoSize    : false,
+          closeClick  : false,
+          openEffect  : 'none',
+          closeEffect : 'none',
+		
+        });
+      });
+    </script>
+
+</head>
+
+<body>
+<div id="wrapper" none="true">
+<div id="navigation"></div>
+<div id="container">
+
+	<div id="logo"></div><div id="language">
+	
+	<div class="dropdown">
+    <p>LANGUAGE</p>
+	<a class="language" >
+	<span id="Language">English</span>
+	</a>
+	<div class="submenu_01" style="display: none; ">
+
+	  <ul class="root">
+<li >
+	      <a href="javascript:;" id="English">English</a>
+	    </li>
+
+	    
+	    <li >
+	      <a href="javascript:;" id="mandarin_chinese" >中文</a>
+	    </li>
+	   <li >
+
+	      <a href="javascript:;" id="japanese">日文</a>
+	    </li>
+	   
+
+	    <li>
+	      <a href="javascript:;" id="English_EU">English(EU)</a>
+	    </li>
+
+	  </ul>
+	</div>
+	</div>
+    
+    
+	<div class="dropdown">
+    <p>REGION</p>
+	<a class="account" >
+	<span id="Region">International</span>
+	</a>
+	<div class="submenu" style="display: none; ">
+
+	  <ul class="root">
+<li >
+	      <a href="javascript:;" id="International">International</a>
+	    </li>
+
+	    
+	    <li >
+	      <a href="javascript:;" id="North_America" >North America</a>
+	    </li>
+	   <li >
+
+	      <a href="javascript:;" id="Asia">Asia</a>
+	    </li>
+	   
+
+	    <li>
+	      <a href="javascript:;" id="Europe">Europe</a>
+	    </li>
+
+	  </ul>
+	</div>
+	</div>
+	
+
+</div>
+<div id="header">
+<div id="main">    
+	<ul id="header_fix">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="app.html">Apps</a></li>
+    <li><a href="#">News</a></li>
+    <li ><a href="#">Forum</a></li>
+    <li><a href="#">Blog</a></li>
+	 </ul>
+    <ul id="login">
+  	  	<li><a href="#">Help</a></li>
+            	<li><a href="#">Register</a> |</li>  
+         <li><a href="#">Sign In</a> |</li> 
+ 	   </ul>
+<ul id="roundabout">
+      <li><a class="fancy" href="#inline"><img src="images/1.png" /></a></li>
+      <li><a class="fancy" href="#inline"><img src="images/2.png" /></a></li>
+      <li><a class="fancy" href="#inline"><img src="images/3.png" /></a></li>
+      <li><a class="fancy" href="#inline"><img src="images/4.png" /></a></li>
+      <li><a class="fancy" href="#inline"><img src="images/5.png" /></a></li>
+    </ul>	<div id="inline" style="display: none;">
+      demo content
+    </div>
+     <h1 id="slogan">Over 1,000 Android Apps 	In the Market !</h1>
+     <ul id="feature">
+ <li class="feature_list_1"><p class="feature_link"><a href="#">Learn more >></a> </p></li>
+  <li class="feature_list_2"><p class="feature_link"><a href="#">Learn more >></a> </p></li>
+   <li class="feature_list_3"><p class="feature_link"><a href="#">Learn more >></a> </p></li>
+ </ul>
+<div id="needhelp"><p class="needhelp">If you have questions about the Android G-Market, our <span class="needhelp_link"><a href="#">Frequently Asked Questions</a></span> page may be able to help. Additionally, you can get in touch with Us by using the <span class="needhelp_link"><a href="#">form</a></span> and we will get back to you as soon as possible.</p></div>
+  <ul id="footer_link">
+  <li><a href="#">About Us</a></li>
+   <li><a href="#">Investor Relations</a></li>
+    <li><a href="#">Developers</a></li>
+     <li><a href="#">Support</a></li>
+      <li><a href="#">FAQ</a></li>
+       <li><a href="#">Contact</a></li>
+  </ul>
+    </div>
+    
+</div>
+</div>
+</div>
+</body>
+</html>

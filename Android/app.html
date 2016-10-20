@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Android G Market</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/index_1.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+     <script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript">
+        var j = jQuery.noConflict(true);
+        </script>
+	<script type="text/javascript" src="js/mocha.js"></script>
+    
+<script src="js/jquery.min.js"></script>
+
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/auto_height.js"></script>
+
+
+</head>
+
+<body>
+<div id="wrapper" none="true">
+<div id="navigation"></div>
+<div id="container">
+
+	<div id="logo"></div><div id="language">
+	
+	<div class="dropdown">
+    <p>LANGUAGE</p>
+	<a class="language" >
+	<span id="Language">English</span>
+	</a>
+	<div class="submenu_01" style="display: none; ">
+
+	  <ul class="root">
+<li >
+	      <a href="javascript:;" id="English">English</a>
+	    </li>
+
+	    
+	    <li >
+	      <a href="javascript:;" id="mandarin_chinese" >中文</a>
+	    </li>
+	   <li >
+
+	      <a href="javascript:;" id="japanese">日文</a>
+	    </li>
+	   
+
+	    <li>
+	      <a href="javascript:;" id="English_EU">English(EU)</a>
+	    </li>
+
+	  </ul>
+	</div>
+	</div>
+    
+    
+	<div class="dropdown">
+    <p>REGION</p>
+	<a class="account" >
+	<span id="Region">International</span>
+	</a>
+	<div class="submenu" style="display: none; ">
+
+	  <ul class="root">
+<li >
+	      <a href="javascript:;" id="International">International</a>
+	    </li>
+
+	    
+	    <li >
+	      <a href="javascript:;" id="North_America" >North America</a>
+	    </li>
+	   <li >
+
+	      <a href="javascript:;" id="Asia">Asia</a>
+	    </li>
+	   
+
+	    <li>
+	      <a href="javascript:;" id="Europe">Europe</a>
+	    </li>
+
+	  </ul>
+	</div>
+	</div>
+	
+
+</div>
+<div id="header">
+<div id="main">    
+	<ul id="header_fix">		
+    <li><a href="index.html">Home</a></li>
+    <li class="active"><a href="#">Apps</a></li>
+    <li><a href="#">News</a></li>
+    <li ><a href="#">Forum</a></li>
+    <li><a href="#">Blog</a></li>
+	 </ul>
+    <ul id="login">
+  	  	<li><a href="#">Help</a></li>
+            	<li><a href="#">Register</a> |</li>  
+         <li><a href="#">Sign In</a> |</li> 
+ 	   </ul>
+	<div id="app_container">
+       
+        <div id="thumbs">
+    	   	  <a href="#">  <img src="images/thumb1.jpg" /></a>
+    		  <a href="#"><img src="images/thumb2.jpg" /></a>
+    		  <a href="#"> <img src="images/thumb3.jpg" /></a>
+    		  <a href="#">   <img src="images/thumb4.jpg" /></a>
+              <a href="#">	   <img src="images/thumb5.jpg" /></a>
+       
+	        </div>
+		<div id="gallery">
+    		   <a href="#"><img src="images/gallery1.jpg" /></a>
+    		     <a href="#"> <img src="images/gallery2.jpg" /></a>
+    		   <a href="#">   <img src="images/gallery3.jpg" /></a>
+    		   <a href="#">   <img src="images/gallery4.jpg" /></a>
+               <a href="#">	   <img src="images/gallery5.jpg" /></a>
+         
+	        </div>
+          	<a href="#" id="next"></a>
+        </div>
+   <div id="left">
+   <div id="search">
+  <input name="search" type="text" class="search" onfocus="if (this.value == 'Search Markets...') {this.value = '';}"  onblur="if (this.value == '') {this.value = 'Search Markets...';}" value="Search Markets..." maxlength="20"/><div id="submit"></div></div>
+   <div id="top_rank">
+<h4 class="title">Featured </h4>
+<ol class="feature_rank">
+<a href="app_line.html"><img src="images/app1.jpg" border="0"/></a>
+<li><p style="font-weight:bolder"><a href="app_line.html">Line<br/><span  class="category">Social Networking</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Candy Crush Saga &reg;<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Clash of clans<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Pandora Radio<br/><span  class="category">Music</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">MARVEL WAR of Heros<br/><span  class="category">Games</span></a></p></li>
+</ol>
+<p class="seeall"><a href="#">see all ></a></p>
+</div>
+<div id="top_rank">
+<h4 class="title">Top Paid</h4>
+<ol class="feature_rank">
+<a href="#"><img src="images/app2.jpg" border="0"/></a>
+<li><p style="font-weight:bolder"><a href="#">Heads up!<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">WhatsApp Messenger<br/><span  class="category">Social Networking</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Survivalraft<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Minecraft - Pocket Edition<br/><span  class="category">Music</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Bastion<br/><span  class="category">Games</span></a></p></li>
+</ol>
+<p class="seeall"><a href="#">see all ></a></p>
+</div>
+<div id="top_rank">
+<h4 class="title">Top Free</h4>
+<ol class="feature_rank">
+<a href="#"><img src="images/app3.jpg" border="0"/></a>
+<li><p style="font-weight:bolder"><a href="#">Hardest Game Ever 2<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Dots: A Game About Connecting <br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Vine<br/><span  class="category">Social Networking</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">Candy Crush Saga &reg;<br/><span  class="category">Games</span></a></p></li>
+<li><p style="font-weight:bolder"><a href="#">FallDown! 2<br/><span  class="category">Games</span></a></p></li>
+</ol>
+<p class="seeall"><a href="#">see all ></a></p>
+</div>
+   </div>
+   <div id="right">
+   <div id="new_note">
+   <h2 class="app_right_title">New & Noteworthy</h2><hr/>
+   <div id="app_right_content">
+   <div class="apps">
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_new/app_new_1.jpg"/></a><p style="font-weight:bolder"><a href="#">Say the Same<br/>Thing <br/><span  class="category">Games</span></a></p></li>
+        <li><a href="#"><img src="images/app_new/app_new_2.jpg"/></a><p style="font-weight:bolder"><a href="#">Story<br/><span  class="category">Photo & Video<br/>Free</span></a></p></li>
+       <li><a href="#"><img src="images/app_new/app_new_3.jpg"/></a><p style="font-weight:bolder"><a href="#">Sky Guide: View<br/>Stars Night or...<br/><span  class="category">Reference</span></a></p></li>
+         <li><a href="#"><img src="images/app_new/app_new_4.jpg"/></a><p style="font-weight:bolder"><a href="#">SeatGeek Tickets<br/>- Concerts & ...<br/><span  class="category">Entertainment</span></a></p></li>
+                  <li><a href="#"><img src="images/app_new/app_new_5.jpg"/></a><p style="font-weight:bolder"><a href="#">Fraggie Friends<br/>Forever<br/><span  class="category">Books</span></a></p></li>
+                       <li><a href="#"><img src="images/app_new/app_new_6.jpg"/></a><p style="font-weight:bolder"><a href="#">Where Chefs Eat<br/>- A Guide to...<br/><span  class="category">Food & Drink</span></a></p></li>
+                                <li><a href="#"><img src="images/app_new/app_new_7.jpg"/></a><p style="font-weight:bolder"><a href="#">The Pocket<br/>Scavenger<br/><span  class="category">Entertainment</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_new/app_new_8.jpg"/></a><p style="font-weight:bolder"><a href="#">The Loop<br/>Magazine<br/><span  class="category">Lifestyle</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_new/app_new_9.jpg"/></a><p style="font-weight:bolder"><a href="#">Tasty Tadpoles<br/><span  class="category">Games<br/>$0.99</span></a></p></li>
+    </ul>
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_new/app_new_10.jpg"/></a><p style="font-weight:bolder"><a href="#">Running with <br/>Friends<br/><span  class="category">Games</span></a></p></li>
+        <li><a href="#"><img src="images/app_new/app_new_11.jpg"/></a><p style="font-weight:bolder"><a href="#">Blitz Brigade -<br/>Online...<br/><span  class="category">Games</span></a></p></li>
+       <li><a href="#"><img src="images/app_new/app_new_12.jpg"/></a><p style="font-weight:bolder"><a href="#">Mushroom Wars<br/>Mini<br/><span  class="category">Games</span></a></p></li>
+         <li><a href="#"><img src="images/app_new/app_new_13.jpg"/></a><p style="font-weight:bolder"><a href="#">IMPOSSIBLE<br/>ROAD<br/><span  class="category">Games</span></a></p></li>
+                  <li><a href="#"><img src="images/app_new/app_new_14.jpg"/></a><p style="font-weight:bolder"><a href="#">Bellyfish<br/><span  class="category">Games<br/>$0.99</span></a></p></li>
+                       <li><a href="#"><img src="images/app_new/app_new_15.jpg"/></a><p style="font-weight:bolder"><a href="#">Dig!<br/><span  class="category">Games<br/>$0.99</span></a></p></li>
+                                <li><a href="#"><img src="images/app_new/app_new_16.jpg"/></a><p style="font-weight:bolder"><a href="#">Sid Meier's Ace<br/>Patrol<br/><span  class="category">Games</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_new/app_new_17.jpg"/></a><p style="font-weight:bolder"><a href="#">Kontacts (by<br/>FTApps)<br/><span  class="category">Productivity</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_new/app_new_18.jpg"/></a><p style="font-weight:bolder"><a href="#">Hipmunk Fights<br/>& Hotels<br/><span  class="category">Travel</span></a></p></li>
+    </ul>
+    </div>
+  
+       
+   </div>
+   </div>
+   
+ <div id="new_note">
+   <h2 class="app_right_title">What's Hot</h2><hr/>
+   <div id="app_right_content1">
+   <div class="apps">
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_hot/app_hot_1.jpg"/></a><p style="font-weight:bolder"><a href="#">Star Command<br/><span  class="category">Games<br/>$2.99</span></a></p></li>
+        <li><a href="#"><img src="images/app_hot/app_hot_2.jpg"/></a><p style="font-weight:bolder"><a href="#">Action Movie FX<br/><span  class="category">Entertainment<br/>Free</span></a></p></li>
+       <li><a href="#"><img src="images/app_hot/app_hot_3.jpg"/></a><p style="font-weight:bolder"><a href="#">Paper Titans<br/><span  class="category">Games<br/>Free</span></a></p></li>
+         <li><a href="#"><img src="images/app_hot/app_hot_4.jpg"/></a><p style="font-weight:bolder"><a href="#">Haunted Hollow<br/><span  class="category">Games<br/>Free</span></a></p></li>
+                  <li><a href="#"><img src="images/app_hot/app_hot_5.jpg"/></a><p style="font-weight:bolder"><a href="#">Angry Birds<br/>Friends<br/><span  class="category">Games</span></a></p></li>
+                       <li><a href="#"><img src="images/app_hot/app_hot_6.jpg"/></a><p style="font-weight:bolder"><a href="#">Moldiv - Collage<br/>Photo Editor<br/><span  class="category">Photo & Video</span></a></p></li>
+                                <li><a href="#"><img src="images/app_hot/app_hot_7.jpg"/></a><p style="font-weight:bolder"><a href="#">Toontastic Jr.<br/>Shrek<br/><span  class="category">Education</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_hot/app_hot_8.jpg"/></a><p style="font-weight:bolder"><a href="#">Triple Town<br/><span  class="category">Games<br/>Free</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_hot/app_hot_9.jpg"/></a><p style="font-weight:bolder"><a href="#">Contaqs - the<br/>Contact Manager<br/><span  class="category">Productivity</span></a></p></li>
+    </ul>
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_hot/app_hot_10.jpg"/></a><p style="font-weight:bolder"><a href="#">Traktor DJ for<br/>iPhone<br/><span  class="category">Music</span></a></p></li>
+        <li><a href="#"><img src="images/app_hot/app_hot_11.jpg"/></a><p style="font-weight:bolder"><a href="#">Heads Up!<br/><span  class="category">Games<br/>$0.99</span></a></p></li>
+       <li><a href="#"><img src="images/app_hot/app_hot_12.jpg"/></a><p style="font-weight:bolder"><a href="#">Ribbon<br/><span  class="category">Social Networking<br/>Free</span></a></p></li>
+         <li><a href="#"><img src="images/app_hot/app_hot_13.jpg"/></a><p style="font-weight:bolder"><a href="#">Days - Your<br/>Visual Photo and<br/><span  class="category">Photo & Video</span></a></p></li>
+                  <li><a href="#"><img src="images/app_hot/app_hot_14.jpg"/></a><p style="font-weight:bolder"><a href="#">Dots: A Game<br/>About<br/><span  class="category">Games</span></a></p></li>
+                       <li><a href="#"><img src="images/app_hot/app_hot_15.jpg"/></a><p style="font-weight:bolder"><a href="#">Zoombies:<br/>Animates de la<br/><span  class="category">Games</span></a></p></li>
+                                <li><a href="#"><img src="images/app_hot/app_hot_16.jpg"/></a><p style="font-weight:bolder"><a href="#">CandyMeleon<br/><span  class="category">Games<br/>Free</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_hot/app_hot_17.jpg"/></a><p style="font-weight:bolder"><a href="#">Instagram<br/><span  class="category">Photo & Video<br/>Free</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_hot/app_hot_18.jpg"/></a><p style="font-weight:bolder"><a href="#">Oh My Heroes!<br/><span  class="category">Games<br/>$0.99</span></a></p></li>
+    </ul>
+    </div>
+  
+       
+   </div>
+   </div>
+   
+<div id="new_note">
+   <h2 class="app_right_title">Top Grossing</h2><hr/>
+   <div id="app_right_content1">
+   <div class="apps">
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_grossing/app_grossing_1.jpg"/></a><p style="font-weight:bolder"><a href="#">1. Candy Crush<br/>Saga &reg;<br/><span  class="category">Games</span></a></p></li>
+        <li><a href="#"><img src="images/app_grossing/app_grossing_2.jpg"/></a><p style="font-weight:bolder"><a href="#">2. Clash of Clans<br/><span  class="category">Games</span></a></p></li>
+       <li><a href="#"><img src="images/app_grossing/app_grossing_3.jpg"/></a><p style="font-weight:bolder"><a href="#">3. Pandora Radio<br/><span  class="category">Music</span></a></p></li>
+         <li><a href="#"><img src="images/app_grossing/app_grossing_4.jpg"/></a><p style="font-weight:bolder"><a href="#">4. Hay Day<br/><span  class="category">Games</span></a></p></li>
+                  <li><a href="#"><img src="images/app_grossing/app_grossing_5.jpg"/></a><p style="font-weight:bolder"><a href="#">5. MARVEL War<br/>of Heros<br/><span  class="category">Games</span></a></p></li>
+                       <li><a href="#"><img src="images/app_grossing/app_grossing_6.jpg"/></a><p style="font-weight:bolder"><a href="#">6. The Hobbit:<br/>Kingdoms of...<br/><span  class="category">Games</span></a></p></li>
+                                <li><a href="#"><img src="images/app_grossing/app_grossing_7.jpg"/></a><p style="font-weight:bolder"><a href="#">7. Injustice: Gods<br/>Among Us<br/><span  class="category">Games</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_grossing/app_grossing_8.jpg"/></a><p style="font-weight:bolder"><a href="#">8. Slotomania -<br/>Slot Machines<br/><span  class="category">Games</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_grossing/app_grossing_9.jpg"/></a><p style="font-weight:bolder"><a href="#">9. Kingdoms of<br/>Camelot: Battle...<br/><span  class="category">Games</span></a></p></li>
+    </ul>
+    <ul class="app_new">
+    <li><a href="#"><img src="images/app_grossing/app_grossing_10.jpg"/></a><p style="font-weight:bolder"><a href="#">10. The<br/>Simpsons&#8482;...<br/><span  class="category">Games</span></a></p></li>
+        <li><a href="#"><img src="images/app_grossing/app_grossing_11.jpg"/></a><p style="font-weight:bolder"><a href="#">11. Minecraft -<br/>Pocket Edition<br/><span  class="category">Games</span></a></p></li>
+       <li><a href="#"><img src="images/app_grossing/app_grossing_12.jpg"/></a><p style="font-weight:bolder"><a href="#">12. Rage if <br/>Bahamut<br/><span  class="category">Games</span></a></p></li>
+         <li><a href="#"><img src="images/app_grossing/app_grossing_13.jpg"/></a><p style="font-weight:bolder"><a href="#">13. Poker by<br/>Zynga<br/><span  class="category">Games</span></a></p></li>
+                  <li><a href="#"><img src="images/app_grossing/app_grossing_14.jpg"/></a><p style="font-weight:bolder"><a href="#">14. Reign of<br/>Dragons<br/><span  class="category">Games</span></a></p></li>
+                       <li><a href="#"><img src="images/app_grossing/app_grossing_15.jpg"/></a><p style="font-weight:bolder"><a href="#">15. Megapolis<br/><span  class="category">Games</span></a></p></li>
+                                <li><a href="#"><img src="images/app_grossing/app_grossing_16.jpg"/></a><p style="font-weight:bolder"><a href="#">16. Tap Paradise<br/>Cove<br/><span  class="category">Games</span></a></p></li>
+                                  <li><a href="#"><img src="images/app_grossing/app_grossing_17.jpg"/></a><p style="font-weight:bolder"><a href="#">17. DragonVale<br/><span  class="category">Games</span></a></p></li>
+                                          <li><a href="#"><img src="images/app_grossing/app_grossing_18.jpg"/></a><p style="font-weight:bolder"><a href="#">18. Modern War<br/><span  class="category">Games</span></a></p></li>
+    </ul>
+    </div>
+  
+       
+   </div>
+   </div>
+   </div>
+   
+  <ul id="footer_link">
+  <li><a href="#">About Us</a></li>
+   <li><a href="#">Investor Relations</a></li>
+    <li><a href="#">Developers</a></li>
+     <li><a href="#">Support</a></li>
+      <li><a href="#">FAQ</a></li>
+       <li><a href="#">Contact</a></li>
+  </ul>
+    </div>
+    
+</div>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+		$("#app_right_content, #app_right_content1").mCustomScrollbar({
+					horizontalScroll:true,
+					autoHideScrollbar:true,
+					advanced:{
+						autoExpandHorizontalScroll:true
+					}
+				});
+				
+});
+	
+	</script>
+</body>
+</html>

