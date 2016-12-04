@@ -1,13 +1,3 @@
-/**
- * Parallax Scrolling Tutorial
- * For NetTuts+
- *  
- * Author: Mohiuddin Parekh
- *	http://www.mohi.me
- * 	@mohiuddinparekh   
- */
-
-
 $(document).ready(function(){
 	// Cache the Window object
 	
@@ -34,6 +24,30 @@ $(document).ready(function(){
 }); // window scroll Ends
 
  });	
+
+$( "#pre_ipeen89, #ipeen89-container" ).hover(
+  function() {
+    $( "#ipeen89-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#ipeen89-container" ).css( "opacity",".5" );
+  }
+);
+
+$( "#pre_tripcard, #tripcard-container" ).hover(
+  function() {
+    $( "#tripcard-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#tripcard-container" ).css( "opacity",".5" );
+  }
+);
+
+$( "#pre_flash_buy, #flash_buy-container" ).hover(
+  function() {
+    $( "#flash_buy-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#flash_buy-container" ).css( "opacity",".5" );
+  }
+);
 
 $( "#pre_hotskys, #hotsky-container" ).hover(
   function() {

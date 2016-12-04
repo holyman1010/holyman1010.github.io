@@ -504,6 +504,33 @@ animation-delay: .5s;
 	border:2px solid #014889;
 	color: #fff;
 }
+.btn.btn-clear.ipeen89_style{
+	border: 2px solid #c05751;	
+	color: #c05751;
+}
+.btn.btn-clear.ipeen89_style:hover {
+	background-color: #c05751;
+	border:2px solid #c05751;
+	color: #fff;
+}
+.btn.btn-clear.tripcard_style{
+	border: 2px solid #65B9B7;	
+	color: #65B9B7;
+}
+.btn.btn-clear.tripcard_style:hover {
+	background-color: #65B9B7;
+	border:2px solid #65B9B7;
+	color: #fff;
+}
+.btn.btn-clear.flash_buy_style{
+	border: 2px solid #FFAB05;	
+	color: #FFAB05;
+}
+.btn.btn-clear.flash_buy_style:hover {
+	background-color: #FFAB05;
+	border:2px solid #FFAB05;
+	color: #fff;
+}
 /* ================================= FEATURED WORKS ================================= */
 
 #work li {
@@ -547,7 +574,7 @@ animation-delay: .5s;
 }
 
 
-#hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container{
+#hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -565,7 +592,7 @@ animation-delay: .5s;
 	
 }
 
-#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover{
+#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover, #ipeen89-container:hover, #tripcard-container:hover, #flash_buy-container:hover{
 	opacity:1;
 
 }
@@ -588,20 +615,29 @@ animation-delay: .5s;
 }
 
 #line-container {
-	background:url(../images/line_hack.jpg) center 0pc no-repeat;
+	background:url(../images/line_hack.jpg) center 0px no-repeat;
 }
 
 #wahh-container {
-	background:url(../images/wahh.png) center 0pc no-repeat;
+	background:url(../images/wahh.png) center 0px no-repeat;
 	opacity:1;
 	height: 180px;
 	background-color: #2E2F30;
 }
 #nsl-container {
-	background:url(../images/nsl.png) center 0pc no-repeat;
+	background:url(../images/nsl.png) center 0px no-repeat;
 	opacity:1;
 	height: 202px;
 	background-color: #2E2F30;
+}
+#ipeen89-container{
+	background: url(../images/iPeen89.jpg) center 0px no-repeat;
+}
+#tripcard-container{
+	background: url(../images/tripcard.jpg) center 0px no-repeat;
+}
+#flash_buy-container{
+	background: url(../images/flash_buy.jpg) center 0px no-repeat;
 }
 .opacity{
 	opacity: 1;

@@ -385,7 +385,7 @@ animation-delay: .7s;
 }
 
 
-#hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container {
+#hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -393,7 +393,7 @@ animation-delay: .7s;
 	text-indent:-9999px;
 	background:url(../images/hotskys.jpg) center 0px no-repeat;
 	
-	opacity:1;
+	opacity:1!important;
 	
 	transition:linear .2s all;
 	-moz-transition:linear .2s all;
@@ -401,7 +401,7 @@ animation-delay: .7s;
 	-webkit-transition:linear .2s all;
 }
 
-#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover {
+#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover{
 	opacity:1;
 }
 
@@ -436,7 +436,18 @@ animation-delay: .7s;
 	height: 125px;
 	background-color: #2E2F30;
 }
-
+#ipeen89-container{
+	background: url(../images/iPeen89.jpg) center 0px no-repeat;
+	opacity: 1;	
+}
+#tripcard-container{
+	background: url(../images/tripcard.jpg) center 0px no-repeat;
+	opacity: 1;	
+}
+#flash_buy-container{
+	background: url(../images/flash_buy.jpg) center 0px no-repeat;
+	opacity: 1;	
+}
 /* ================================= BITS AND PIECES ================================= */
 .bits-container {
 	width:100%;
