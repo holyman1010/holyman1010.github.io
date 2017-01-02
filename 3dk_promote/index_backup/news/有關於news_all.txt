@@ -1,0 +1,10 @@
+所有公告
+熱門公告等等...
+皆用news_all.html此頁做更替
+title名稱在根目錄底下的images\news_title裡面
+actnews.png
+allnews.png
+atmnews.png
+hotnews.png
+sysnews.png
+跳至不同主題更換此圖素即可！

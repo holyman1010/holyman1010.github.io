@@ -1,0 +1,19 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,p,ul,li,blockquote,address {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+}
+body{ 
+	background-color: transparent;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: top;
+}

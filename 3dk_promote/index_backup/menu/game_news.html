@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>game_news</title>
+<link href="../css/game_news.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://azadcreative.com/wp-content/themes/Instinct/javascript/jquery.js"></script>
+<script type="text/javascript">
+
+$(function() {
+
+	$("#game_news ul li").hover(function() {
+		$(this).addClass("hover");
+	}, function() {
+		$(this).removeClass("hover");
+	});
+	
+	$("#game_news ul li").click(function() {
+		$("#game_news ul li").removeClass("selected");		
+		$(this).addClass("selected");
+	});
+
+});
+
+</script>
+</head>
+
+<body>
+<div id="game_news">
+
+<ul>
+<li class="news selected"><a href="../menu/news_guide.html" target="news"></a></li>
+<li class="guide"><a href="../menu/game_guide.html" target="news"></a></li>
+</ul>
+
+<iframe name="news" height="202" width="353" frameborder="0" align="middle"  scrolling="no" src="../menu/news_guide.html" allowtransparency="true"></iframe></div>
+
+</div>
+</body>
+</html>

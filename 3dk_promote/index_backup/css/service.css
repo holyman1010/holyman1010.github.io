@@ -1,0 +1,96 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,p,ul,li,blockquote,address {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+}
+body{ 
+	background-color: transparent;
+}
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	vertical-align: top;
+}
+#service{
+	float: left;
+	height: 300px;
+	width: 213px;
+	background-image: url(../images/service.jpg);
+	background-repeat: no-repeat;
+
+}
+#status{
+	height: 75px;
+	width: 157px;
+	margin-top: 65px;
+	margin-left: 30px;
+	background-image: url(../images/status_16.jpg);
+	background-repeat: no-repeat;
+}
+#onover{
+	position: absolute;
+	z-index: 2;
+	visibility: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#list{
+	color: #fffceb;
+	font-size: 14px;
+	background-color: #140f0b;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	text-align: right;
+	padding-right: 10px;
+}
+#status_pic{
+	float: left;
+	height: 13px;
+	width: 25px;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+#cash a{
+	background-image: url(../images/cash.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: left;
+	height: 55px;
+	width: 55px;	
+}
+#cash a:hover{
+	background-position: 0px -55px;
+}
+#trea a{
+	background-image: url(../images/treasure.jpg);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	float: left;
+	height: 55px;
+	width: 58px;
+	margin-left: 40px;
+}
+#trea a:hover{
+	background-position: 0px -55px;
+}
+#bonus{
+	float: left;
+	height: 55px;
+	width: 155px;
+	margin-top: 30px;
+	margin-left: 30px;
+	
+}
