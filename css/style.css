@@ -344,16 +344,18 @@ animation-delay: .5s;
 	position:relative;
 }
 
-.inner h2, .new_container h2, .inner h3, .new_container h3 {
+.inner h2, .new_container h2 {
+	font-size:3.25em;
+}
+.inner h2, .new_container h2 ,.inner h3, .new_container h3{
 	font-weight:normal;
 	width:100%;
 	color:#26292a;
-	font-size:3.25em;
 	font-family:'Conv_pnb', sans-serif;
 	text-transform:uppercase;
 	background:#fff;
 	margin:0px;
-	line-height:.6em;
+	line-height:1.2em;
 	letter-spacing:.05em;
 }
 
@@ -402,16 +404,16 @@ animation-delay: .5s;
 	background-color: #fff;
 	max-width: 1728px;
 }
-
+.ap_inner h2{
+	font-size:3.25em;
+}
 .ap_inner h2, .ap_inner h3 {
 	font-weight:lighter;
 	width:100%;
 	color:#26292a;
-	font-size:3.25em;
 	font-family:'Conv_pnb', sans-serif;
-	/*text-transform:uppercase;*/
 	margin:0px;
-	line-height:1em;
+	line-height:1.2em;
 	letter-spacing:.05em;
 }
 
