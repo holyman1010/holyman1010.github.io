@@ -295,7 +295,7 @@ animation-delay: .7s;
 	position:relative;
 }
 
-.inner h2 {
+.inner h2, .inner h3 {
 	font-weight:normal;
 	width:100%;
 	color:#26292a;
@@ -336,7 +336,7 @@ animation-delay: .7s;
 	width:100%;
 }
 
-.ap_inner h2 {
+.ap_inner h2, .ap_inner h3 {
 	font-weight:normal;
 	width:100%;
 	color:#26292a;
