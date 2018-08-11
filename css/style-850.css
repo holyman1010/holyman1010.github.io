@@ -411,7 +411,7 @@ animation-delay: .7s;
 }
 
 
-#hotsky-container, #apeepee-container, #yiabi-container, #frootloops-container, #android-container, #line-container {
+#user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #frootloops-container, #android-container, #line-container {
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -427,8 +427,24 @@ animation-delay: .7s;
 	-webkit-transition:linear .2s all;
 }
 
-#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover {
+#user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover {
 	opacity:1;
+}
+
+#DLS-container{
+	background:url(../images/design_foundation.jpg) center 0px no-repeat;
+}
+
+#ehost-container{
+	background:url(../images/e-host.jpg) center 0px no-repeat;
+}
+
+#ayapp-container{
+	background:url(../images/ayios.jpg) center 0px no-repeat;
+}
+
+#user_research-container{
+	background:url(../images/user_research.jpg) center 0px no-repeat;
 }
 
 #apeepee-container {

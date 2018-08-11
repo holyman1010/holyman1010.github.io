@@ -25,6 +25,38 @@ $(document).ready(function(){
 
  });	
 
+$( "#pre_DLS, #DLS-container" ).hover(
+  function() {
+    $( "#DLS-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#DLS-container" ).css( "opacity",".5" );
+  }
+);
+
+$( "#pre_ehost, #ehost-container" ).hover(
+  function() {
+    $( "#ehost-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#ehost-container" ).css( "opacity",".5" );
+  }
+);
+
+$( "#pre_ayapp, #ayapp-container" ).hover(
+  function() {
+    $( "#ayapp-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#ayapp-container" ).css( "opacity",".5" );
+  }
+);
+
+$( "#pre_user_research, #user_research-container" ).hover(
+  function() {
+    $( "#user_research-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#user_research-container" ).css( "opacity",".5" );
+  }
+);
+
 $( "#pre_ipeen89, #ipeen89-container" ).hover(
   function() {
     $( "#ipeen89-container" ).css( "opacity","1" );

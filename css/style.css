@@ -459,6 +459,47 @@ animation-delay: .5s;
 	color: #fff;
 }
 
+.btn.btn-clear.DLS_style{
+	border: 2px solid #4285F5;	
+	color: #4285F5;
+}
+.btn.btn-clear.DLS_style:hover {
+	background-color: #4285F5;
+	border:2px solid #4285F5;
+	color: #fff;
+}
+
+.btn.btn-clear.ehost_style{
+	border: 2px solid #00B041;	
+	color: #00B041;
+}
+.btn.btn-clear.ehost_style:hover {
+	background-color: #00B041;
+	border:2px solid #00B041;
+	color: #fff;
+}
+
+
+.btn.btn-clear.ayapp_style{
+	border: 2px solid #F3370D;	
+	color: #F3370D;
+}
+.btn.btn-clear.ayapp_style:hover {
+	background-color: #F3370D;
+	border:2px solid #F3370D;
+	color: #fff;
+}
+
+.btn.btn-clear.user_research_style{
+	border: 2px solid #FFBC00;	
+	color: #FFBC00;
+}
+.btn.btn-clear.user_research_style:hover {
+	background-color: #FFBC00; 
+	border:2px solid #FFBC00;
+	color: #fff;
+}
+
 .btn.btn-clear.ap_style{
 	border: 2px solid #cc3333;	
 	color: #cc3333;
@@ -574,7 +615,7 @@ animation-delay: .5s;
 }
 
 
-#hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
+#user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -592,9 +633,27 @@ animation-delay: .5s;
 	
 }
 
-#hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover, #ipeen89-container:hover, #tripcard-container:hover, #flash_buy-container:hover{
+#user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover, #ipeen89-container:hover, #tripcard-container:hover, #flash_buy-container:hover{
 	opacity:1;
 
+}
+
+
+
+#DLS-container{
+	background:url(../images/design_foundation.jpg) center 0px no-repeat;
+}
+
+#ehost-container{
+	background:url(../images/e-host.jpg) center 0px no-repeat;
+}
+
+#ayapp-container{
+	background:url(../images/ayios.jpg) center 0px no-repeat;
+}
+
+#user_research-container{
+	background:url(../images/user_research.jpg) center 0px no-repeat;
 }
 
 #apeepee-container {
