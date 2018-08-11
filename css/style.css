@@ -645,7 +645,7 @@ animation-delay: .5s;
 }
 
 #ehost-container{
-	background:url(../images/e-host.jpg) center 0px no-repeat;
+	background:url(../images/e-host_fix.jpg) center 0px no-repeat;
 }
 
 #ayapp-container{
