@@ -896,15 +896,15 @@ footer {
 .fa.dribbble:hover {
 	background-position:0px -115px;
 }
-.fa.aboutme {
+.fa.medium {
 	height:114px;
 	width:150px;
-	background:url("../images/fa-aboutme.png");
+	background:url("../images/fa-medium.png");
 	background-repeat: no-repeat;
     background-position:0px 20px;
 }
 
-.fa.aboutme:hover {
+.fa.medium:hover {
 	background-position:0px -123px;
 }
 .fa.twitter {
