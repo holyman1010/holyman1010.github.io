@@ -25,6 +25,14 @@ $(document).ready(function(){
 
  });	
 
+$( "#pre_engagement, #engagement-container" ).hover(
+  function() {
+    $( "#engagement-container" ).css( "opacity","1" );
+  }, function() {
+    $( "#engagement-container" ).css( "opacity",".5" );
+  }
+);
+
 $( "#pre_DLS, #DLS-container" ).hover(
   function() {
     $( "#DLS-container" ).css( "opacity","1" );

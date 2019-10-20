@@ -412,7 +412,7 @@ animation-delay: .7s;
 }
 
 
-#user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #frootloops-container, #android-container, #line-container {
+#engagement-container, #user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #frootloops-container, #android-container, #line-container {
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -428,8 +428,12 @@ animation-delay: .7s;
 	-webkit-transition:linear .2s all;
 }
 
-#user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover {
+#engagement-container:hover, #user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover {
 	opacity:1;
+}
+
+#engagement-container{
+	background:url(../images/strengthen_engagement.jpg) center 0px no-repeat;
 }
 
 #DLS-container{

@@ -461,6 +461,16 @@ animation-delay: .5s;
 	color: #fff;
 }
 
+.btn.btn-clear.Engagement_style{
+	border: 2px solid #1E9FD2;	
+	color: #1E9FD2;
+}
+.btn.btn-clear.Engagement_style:hover {
+	background-color: #1E9FD2;
+	border:2px solid #1E9FD2;
+	color: #fff;
+}
+
 .btn.btn-clear.DLS_style{
 	border: 2px solid #4285F5;	
 	color: #4285F5;
@@ -617,7 +627,7 @@ animation-delay: .5s;
 }
 
 
-#user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
+#engagement-container, #user_research-container, #ayapp-container, #ehost-container, #DLS-container, #hotsky-container, #apeepee-container, #yiabi-container, #lol-container, #android-container, #line-container, #wahh-container, #nsl-container, #ipeen89-container, #tripcard-container, #flash_buy-container{
 	height:350px;
 	width:100%;
 	display:inline-block;
@@ -635,12 +645,13 @@ animation-delay: .5s;
 	
 }
 
-#user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover, #ipeen89-container:hover, #tripcard-container:hover, #flash_buy-container:hover{
+#engagement-container:hover, #user_research-container:hover, #ayapp-container:hover, #ehost-container:hover, #DLS-container:hover, #hotsky-container:hover, #apeepee-container:hover, #yiabi-container:hover, #lol-container:hover, #android-container:hover, #line-container:hover, #ipeen89-container:hover, #tripcard-container:hover, #flash_buy-container:hover{
 	opacity:1;
-
 }
 
-
+#engagement-container{
+	background:url(../images/strengthen_engagement.jpg) center 0px no-repeat;
+}
 
 #DLS-container{
 	background:url(../images/design_foundation.jpg) center 0px no-repeat;
