@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+ outline: none; /* for Firefox */
+ hlbr:expression(this.onFocus=this.blur()); /* for IE */
+}
+body{
+	font-size: 12px;
+	font-family: 細明體,Verdana, Arial, SunSans-Regular, Sans-Serif;
+	padding:0;
+	margin:0;
+
+}
+#ajaxMenuBgContainers{
+		position:relative;
+	width:800px;
+	height:603px;
+	display:none;
+}
+#itemcontent{
+width:634px;
+height:557px;
+background-image:url(../images/page1.png);
+}
+#contentFlow{
+	position:absolute;
+	left: 25px;
+	top: 166px;
+}
+#itemcontent2{
+width:634px;
+height:557px;
+background-image:url(../images/page2.png);
+}
+#itemcontent3{
+	width:800px;
+	height:603px;
+	position:relative;
+	background-image:url(../images/menu_bg.png);
+	background-repeat:no-repeat;
+	overflow: hidden;
+}
+.next3{
+	float: right;
+	margin-top: 580px;
+	margin-right: 10px;
+	position: relative;
+	z-index: 999;
+}
+.pre3{
+	float: left;
+	margin-top: 580px;
+	margin-left: 10px;
+	position: relative;
+	z-index: 999;
+
+}
+.pre3 a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #FF0;
+}
+#item3btn{
+	position:absolute;
+	left: 201px;
+	top: 617px;
+}
+#itemcontent4{
+width:634px;
+height:618px;
+background-image:url(../images/page4.png);
+}
+#flow2pos{
+	position:absolute;
+	left: 0px;
+	top: 35px;
+}
+#itemcontent5{
+width:634px;
+height:723px;
+background-image:url(../images/page5.png);
+}
+#item5btn1{
+	position:absolute;
+	left: 215px;
+	top: 353px;
+}
+#item5btn2{
+	position:absolute;
+	left: 215px;
+	top: 643px;
+}
+#p5Slider1{
+	position:absolute;
+	width:240px;
+	height:150px;
+	left: 52px;
+	top: 195px;
+}
+#p5Slider2{
+	position:absolute;
+	width:240px;
+	height:150px;
+	left: 52px;
+	top: 485px;
+}
+#video1{
+	position:absolute;
+	left: 324px;
+	top: 195px;
+}
+#video2{
+	position:absolute;
+	left: 324px;
+	top: 485px;
+}
+#itemcontent6{
+width:634px;
+height:615px;
+background-image:url(../images/page6.png);
+background-repeat:no-repeat;
+}
+#p6Slider{
+	position:absolute;
+	left: 20px;
+	top: 118px;
+	width:586px;
+	height:147px;
+	background-image:url(../img/loader.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.feature05_txt{
+	width:800px;
+	height:107px;
+	position:relative;
+	background-image:url(../images/feature05_txt.png);
+	float: left;
+	margin-top: -140px;
+	margin-left: 13px;
+}

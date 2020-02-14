@@ -1,0 +1,203 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Nocturne</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Nocturne skill//
+	     $(function() {
+	
+	  var $attact = $('#nocturne #Attact');
+	  var $Health = $('#nocturne #Health');
+	  var $Spells = $('#nocturne #Spells');
+       var $Difficulty = $('#nocturne #Difficulty');
+	   var $No_skill = $('#No_skill');
+	   var $No_name = $('#No_name');
+	   var $story = $('#No_story');
+	
+	     $No_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $No_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"58px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"77px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"155px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Nocturne/Nocturne.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="No_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="nocturne">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="No_name"><img src="../images/skills/Nocturne/Nocturne.png" width="650" height="130" /></div>
+<div id="No_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">B</span>efore Nocturne, people believed that dreams were figments of their imagination, meaningless images that flashed through the mind when one slept. This belief was put to the test when a rash of sleep-related incidents started afflicting summoners of the League. Some would wake up screaming, terrified and beyond consolation. Some could not fall asleep, slowly going mad as the nights ticked by. Some simply never woke up. Physicians were baffled until a Field Architect happened to pass out next to a nexus on Twisted Treeline. Witnesses said he cried out once and then stopped breathing. Immediately after, magical energy arced out from the nexus, and Nocturne appeared.</p>
+                <br/>
+                <p>Nocturne did not take his introduction to this world kindly. He slaughtered everything he could find before summoners were able to magically confine him. After a period of intense study, League experts divined that Nocturne hunted summoners in their sleep, attacking them in a place where their magic was useless. This seemed to be his only purpose. The families of the victims demanded justice, but League officials were concerned that death might only return Nocturne to the place from which he came. They bound him to a nexus fragment, trapping him in the physical world. As punishment for his crimes, they allowed summoners to call upon Nocturne in the League matches, bending his will to the summoners he hates and creating his own personal nightmare. League scholars don't know whether he truly came from the plane of dreams, or whether there are any more like him. Some theorize that the summoning act affected summoners' subconscious minds, luring Nocturne to them in their sleep. Perhaps the most disturbing theory is that Nocturne is a person's nightmare come to life. If this is true, they wonder, who is the dreamer?</p>
+                <br/>              
+                <p style="color:#FFCC00">''The darkness is closing in...it's pitch black now...but I can still see him...''- Kelvin Ma, patient #4236</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nocturne/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Umbra Blades - </h3>
+        <p style="color:#FF00FF">Every 10 seconds, Nocturne's next attack strikes surrounding enemies for 120% <span style="color:#FFCC00">physical damage</span> and heals himself. </p>
+        <p>Nocturne's basic attacks reduce this cooldown by 1 second.</p><br/>
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nocturne/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Duskbringer - </h3>
+       <p style="color:#FF00FF">Nocturne throws a shadow blade that deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne can move through units and has increased Movement Speed and Attack Damage.</p><br />
+         <p>Nocturne throws a shadow blade that deals 60/105/150/195/240 <span style="color:#FFCC00"> (+0.75) physical damage</span> and leaves a Dusk Trail for 5 seconds. Enemy champions hit also leave a Dusk Trail.</p><br />
+         <p>While on the trail, Nocturne can move through units and gains 15/20/25/30/35% Movement Speed and 15/25/35/45/55 Attack Damage.
+Cost
+</p><br/>
+       <ul>
+       <li>Cost: 60/65/70/75/80 Mana</li>
+       <li>Range: 1125</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nocturne/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Shroud of Darkness  - </h3>
+        <p style="color:#FF00FF">Nocturne empowers his blades, passively gaining attack speed. Activating Shroud of Darkness allows Nocturne to fade into the shadows, creating a magical barrier which blocks a single enemy ability and doubles his passive attack speed if successful.</p><br />
+        <p>Passive: Nocturne has 20/25/30/35/40% bonus Attack Speed.</p><br/>
+        <p>Active: Nocturne creates a magical barrier for 1.5 seconds, which blocks the next enemy ability.</p><br />
+        <p>If an ability is blocked by the shield, Nocturne's passive Attack Speed bonus doubles for 5 seconds.</p><br />
+        <p>Bounces to each target only once, and hits up to 3 targets. The damage and healing value is reduced by 15% each bounce.</p><br/>
+       <ul>
+       <li>Cost:<br/> 50 Mana</li><br/>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nocturne/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Unspeakable Horror - </h3>
+        <p style="color:#FF00FF">Nocturne plants a nightmare into his target's mind, dealing damage each second and fearing the target if they do not get out of range by the end of the duration.</p><br />
+        <p>Nocturne plants a nightmare into his target's mind, dealing 50/100/150/200/250  <span style="color:#66CC00"> (+1.0) magic damage</span> over 2 seconds. If Nocturne stays within range of the target for the full duration, the target becomes feared for 1/1.25/1.5/1.75/2 second(s).</p><br />
+       
+       <ul>
+       <li>Cost: 60/65/70/75/80 Mana</li>
+       <li>Range: 425</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nocturne/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Paranoia - </h3>
+        <p style="color:#FF00FF">Nocturne reduces the sight radius of all enemy champions and removes their ally vision in the process. He can then launch himself at a nearby enemy champion.</p><br />
+        <p>Nocturne reduces the sight radius of all enemy champions and removes their ally vision for 4 seconds. </p><br/>
+        <p>While Paranoia is active, Nocturne can launch himself at an enemy champion, dealing 150/250/350<span style="color:#FFCC00"> (+1.2) physical damage</span> . </p><br />
+        
+              
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 2000/2750/3500</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

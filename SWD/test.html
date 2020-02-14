@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+
+<title>軒轅劍形象官網</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript" src="js/swffit.js"></script>
+<script type="text/javascript" src="js/swfaddress.js"></script>
+<script type="text/javascript" src="js/swfmacmousewheel2.js"></script>
+<!-- tai js-->
+		<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=2.0.3" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=2.0.3"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=2.0.3" />
+	
+<script>
+		function callPopup(){ $("a#popup").trigger("click"); }
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+			$(".various").fancybox({
+				maxWidth	: 1000,
+				maxHeight	: 800,
+				fitToView	: false,
+				autoSize	: false,
+				closeClick	: true,
+				openEffect	: 'none',
+				closeEffect	: 'none'
+			});
+		});
+		var callPopup;
+		var callPopup2;
+		var callPopup3;
+		var callPopup4;
+		$( function(){
+		   callPopup=function(){
+			$("#meet").click();
+			}
+			callPopup2=function(){
+			$("#meet2").click();
+			}	
+			callPopup3=function(){
+			$("#meet3").click();
+			}	
+			callPopup4=function(){
+			$("#meet4").click();
+			}	
+			callPopup5=function(){
+			$("#meet5").click();
+			}	
+		});
+</script>
+    
+<style type="text/css">
+	body {background-color: #000000;} 
+	#flashcontent{
+	color: #FFF;
+	}
+	#flash {
+		
+        text-align:center;
+        /* for mozilla */
+        min-width:1000px;
+        min-height:800px;
+        width:100%;
+        height:100%;
+        /* for IE */
+        width:expression( Math.max( document.body.clientWidth,1000 ) + "px" );
+        height:expression( Math.max(document.body.clientHeight,800 ) + "px" );
+    }
+	.style1 {color: #999999;font-size: 12px;}
+</style>
+</head>
+<body>
+<div id="flashcontent">
+  This text is replaced by the Flash movie.
+</div>
+
+    
+    
+    
+<script type="text/javascript">
+	var so = new SWFObject("eitest.swf", "eitestID", "200", "30", "9", "#FFFFFF");
+	so.write("flashcontent"); 
+
+	function callASfunction()
+	{
+	calleFlashMovie = document.getElementById("eitestID");
+		//pass your desired string as an argument of this function
+		//you can pass as many as you like
+	calleFlashMovie.changeMyTextFieldTextFuncRegID("someString");
+	}	
+	</script>
+<input type="button" id="changetext" value="Call AS Function" onclick="callASfunction();"/>
+
+	
+
+</body>
+</html>

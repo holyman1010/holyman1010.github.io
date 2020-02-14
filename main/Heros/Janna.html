@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Janna</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Janna skill//
+	     $(function() {
+	
+	  var $attact = $('#janna #Attact');
+	  var $Health = $('#janna #Health');
+	  var $Spells = $('#janna #Spells');
+       var $Difficulty = $('#janna #Difficulty');
+	   var $Ja_skill = $('#Ja_skill');
+	   var $Ja_name = $('#Ja_name');
+	   var $story = $('#Ja_story');
+	
+	     $Ja_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Ja_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"31px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"78px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"125px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"125px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+<script type="text/javascript">
+		var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Janna/Janna.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+
+</head>
+
+<body>
+<div id="link">
+
+<div id="Ja_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="janna">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Ja_name"><img src="../images/skills/Janna/Janna.png" width="690" height="130" /></div>
+<div id="Ja_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">T</span>here are those sorcerers who give themselves over to the primal powers of nature, forgoing the learned practice of magic. Such a sorceress is Janna, who first learned magic as an orphan growing up admist the chaos that is the city-state of Zaun. Janna eked out what living she could on the streets. Life was tough and dangerous for the beautiful young girl, and she survived by her wits, and by stealing when wits weren't enough. The rampant magic that characterizes Zaun was the first and most alluring tool which Janna realized could both protect and elevate her. Janna discovered that she had an affinity for a particular type of magic - the elemental magic of air. She mastered her studies of air magic in a matter of months, almost as if she was born of it. Janna went from a street vagrant to an avatar of the air virtually overnight, stunning and surpassing those who taught her. Such a rapid ascension also changed her physical appearance, giving her an otherworldly look.</p>
+                <br/>
+               <p>Seeking to right the injustice in the world (particularly the insanity that has become the city of Zaun), Janna has brought her talents to the League. She is a voice for the regulation of magical experimentation and a supporter of the development of techmaturgy, making her an indirect ally of the city-state of Piltover and the amazing techmaturgical minds that live there. Janna is also a new favorite of the League's many fans. She is often the center of attention at functions, fan appreciation days, and other celebratory events. There is something untouchable about Janna, however, and her affections can change as quickly as the wind.</p><br/>
+                <p style="color:#FFCC00">"Do not be captivated by Janna's beauty. Like the wind, she is one gust away from terrible destruction."  -- Janna </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Janna/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Tailwind - </h3>
+        <p style="color:#FF00FF">Increases the Movement Speed of all allied champions by 3%. </p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Janna/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Howling Gale - </h3>
+       <p style="color:#FF00FF">By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can active the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.  </p><br />
+         <p>Summons a whirlwind, which deals 60/85/110/135/160<span style="color:#66CC00"> (+75% Ability Power)</span> magic damage to all enemies in its path and knocks them into the air. The whirlwind travels further, deals 25/30/40/50/60 bonus damage, and knocks enemies higher, for each second it charges (up to a maximum of 3 seconds).Activate again to release the whirlwind early.  </p><br />
+       <ul>
+       <li>Cost: 90/105/120/135/150 Mana  </li>
+       <li>Range:  1700</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Janna/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Zephyr - </h3>
+        <p style="color:#FF00FF">Janna summons an air elemental that passively increases her Movement Speed and enables her to pass through units. She may also activate this ability to deal damage and slow an enemy's Movement Speed. The passive is lost while this ability is on cooldown. </p><br />
+       <p> <span style="color:#FFCC00">Passive: </span> Increases Movement Speed by 4/7/10/13/16% and allows movement through units.</p><br />
+       <p><span style="color:#FFCC00">Active: </span> Deals 60/115/170/225/280<span style="color:#66CC00">(+60% Ability Power) </span> magic damage to an enemy and slows their Movement Speed by 24/30/36/42/48% for 3 seconds. Passive benefit is lost while Zephyr is on cooldown. </p>
+       <br/>
+       <ul>
+       <li>Cost: 40/50/60/70/80 Mana </li>
+       <li>Range: 600</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Janna/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Eye Of The Storm - </h3>
+        <p style="color:#FF00FF">Janna conjures a defensive gale that shields an ally champion or turret from incoming damage and increases their Attack Damage. </p><br />
+        <p>Shields an allied Champion or turret for 5 seconds. The shield absorbs up to 80/120/160/200/240<span style="color:#66CC00">(+90% Ability Power) </span>damage and grants 14/23/32/41/50 Attack Damage until it breaks. </p><br />
+       
+       <ul>
+       <li>Cost: 70/80/90/100/110 Mana </li>
+       <li>Range: 800</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Janna/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Monsoon - </h3>
+        <p style="color:#FF00FF">Janna surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active. </p><br />
+        <p>Summons forth the might of the wind to knock surrounding enemies back and restores 70/110/150<span style="color:#66CC00">(+35% Ability Power) </span>Health to nearby allies each second for 4 seconds.  </p><br />
+       
+             
+       <ul>
+       <li>Cost: 100/150/200 Mana </li>
+       <li>Range: 725</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

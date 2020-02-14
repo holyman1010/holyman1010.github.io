@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Annie</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Annie skill//
+	     $(function() {
+	
+	  var $attact = $('#annie #Attact');
+	  var $Health = $('#annie #Health');
+	  var $Spells = $('#annie #Spells');
+       var $Difficulty = $('#annie #Difficulty');
+	   var $An_skill = $('#An_skill');
+	   var $An_name = $('#An_name');
+	   var $story = $('#An_story');
+	
+	     $An_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $An_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"36px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"55px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"194px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"76px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Annie/2013 Chinese New Year.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+
+</head>
+
+<body>
+<div id="link">
+
+<div id="An_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="annie">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="An_name"><img src="../images/skills/Annie/Annie.png" width="468" height="130" /></div>
+<div id="An_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">I</span>n the time shortly before the League, there were those within the sinister city-state of Noxus who did not agree with the evils perpetrated by the Noxian High Command. The High Command had just put down a coup attempt from the self-proclaimed Crown Prince Raschallion, and a crack down on any form of dissent against the new government was underway. These political and social outcasts, known as the Gray Order, sought to leave their neighbors in peace as they pursued dark arcane knowledge. The leaders of this outcast society were a married couple: Gregori Hastur, the Gray Warlock, and his wife Amoline, the Shadow Witch. Together they led an exodus of magicians and other intelligentsia from Noxus, resettling their followers beyond the Great Barrier to the northern reaches of the unforgiving Voodoo Lands. Though survival was a challenge at times, the Gray Order's colony managed to thrive in a land where so many others would have failed.</p>
+                <br/>
+                <p>Years after the exodus, Gregori and Amoline had a child: Annie. Early on, Annie's parents knew there was something special about their daughter. At the age of two, Annie miraculously ensorcelled a shadow bear - a ferocious denizen of the petrified forests outside the colony - turning it into her pet. To this day she keeps her bear ''Tibbers'' by her side, often keeping him spellbound as a stuffed doll to be carried like a child's toy. The combination of Annie's lineage and the dark magic of her birthplace have given this little girl tremendous arcane power. It is this same girl who now finds herself as one of the most sought-after champions within the League of Legends - even by the city-state that would have exiled her parents had they not fled beforehand.</p>
+                <br/>
+                <p style="color:#FFCC00">''Annie may be one of the most powerful champions ever to have fought in a Field of Justice. I shudder to think of her capabilities when she becomes an adult.''-- High Councilor Kiersta Mandrake</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Annie/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Pyromania - </h3>
+        <p style="color:#FF00FF">After casting 4 spells, Annie's next offensive spell will stun the target for 1.75 seconds.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Annie/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Disintegrate - </h3>
+       <p style="color:#FF00FF">Annie hurls a mana-infused fireball, dealing damage and refunding the mana cost if it destroys the target.</p><br />
+         <p>Deals 85/125/165/205/245<span style="color:#66CC00"> (+0.7) magic damage</span>. Mana cost is refunded if Disintegrate kills the target. </p><br />
+       <ul>
+       <li>Cost: 60/65/70/75/80 Mana</li>
+       <li>Range: 625</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Annie/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Incinerate - </h3>
+        <p style="color:#FF00FF">Annie casts a blazing cone of fire, dealing damage to all enemies in the area.</p><br />
+        <p>Casts a cone of fire dealing 80/130/180/230/280<span style="color:#66CC00"> (+0.75) magic damage </span>to all enemies in the area.</p><br />
+       
+       <ul>
+       <li>Cost:<br/> 70/80/90/100/110 Mana</li><br/>
+       <li>Range: 625</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Annie/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Molten Shield - </h3>
+        <p style="color:#FF00FF">Shields Annie from harm, reducing damage she takes and returning damage from basic attacks.</p><br />
+        <p>Increases Armor and Magic Resist by 20/30/40/50/60 for 5 seconds. Deals 20/30/40/50/60<span style="color:#66CC00"> (+0.2) magic damage</span> to enemies who attack Annie with basic attacks.</p><br />
+       
+       <ul>
+       <li>Cost: 20 Mana</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Annie/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Summon: Tibbers - </h3>
+        <p style="color:#FF00FF">Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.</p><br />
+        <p>Tibbers appears in a burst of flame dealing 200/325/450<span style="color:#66CC00"> (+0.7) magic damage</span> to enemies in the target area.</p><br />
+            <p>He chases down enemies continually dealing 35<span style="color:#66CC00"> (+0.2) magic damage</span> for 45 seconds. His Health, Armor, Magic Resist, and Attack Damage increase with rank.</p><br />
+              <p>Tibbers can be controlled by holding the alt key and using the right mouse button or by reactivating this ability.</p><br />
+       <ul>
+       <li>Cost: 125/175/225 Mana</li>
+       <li>Range: 600</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Zyra</title>
+ <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Zyra skill//
+	     $(function() {
+	
+	  var $attact = $('#zyra #Attact');
+	  var $Health = $('#zyra #Health');
+	  var $Spells = $('#zyra #Spells');
+       var $Difficulty = $('#zyra #Difficulty');
+	   var $Zy_skill = $('#Zy_skill');
+	   var $Zy_name = $('#Zy_name');
+	   var $story = $('#Zy_story');
+	
+	     $Zy_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Zy_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"77px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"56px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"135px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+		var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Zyra/Zyra.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Zy_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="zyra">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Zy_name"><img src="../images/skills/Zyra/Zyra.png" width="475" height="130" /></div>
+<div id="Zy_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">L</span>onging to take control of her fate, the ancient, dying plant Zyra transferred her consciousness into a human body for a second chance at life. Centuries ago, she and her kind dominated the Kumungu Jungle, using thorns and vines to consume any animal that set foot in their territory. As the years passed, the animal population steadily died off. Food became increasingly scarce, and Zyra could only stand by helplessly as the last of her kin withered away. She thought she would perish alone, until the appearance of an unwary sorceress presented her with an opportunity for salvation.</p>
+                <br/>
+                <p>It was the first time in years Zyra had sensed a creature wander so close. Hunger drew her to the sorceress, but some other, deeper instinct compelled her. She enveloped the woman in thorns with ease, but as she savored this final meal, foreign memories invaded her thoughts. She saw great jungles of metal and stone where humans and animals thrived. Potent magic surged through her vines, and she devised an elegant but risky plan to survive. Using the woman's memories, Zyra poured her newfound magic into the creation of a human-shaped vessel. She didn't know what sort of world awaited her, but she had nothing left to lose. When Zyra opened her eyes, she was overwhelmed by the raw power ready at her fingertips. It wasn't until she noticed the shriveled remains of the plant she once was that she realized how vulnerable she had become. If this body died, there would be no network of vines to retreat through, no roots to regrow her...but she felt truly alive. She beheld the world for the first time as animals did, and a dark smile crept across her lips. She was reborn, and there was so much now within her grasp.</p>
+                <br/>
+                <p style="color:#FFCC00">''Closer to the flower, closer to the thorns.''--Zyra</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zyra/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Rise of the Thorns - </h3>
+        <p style="color:#FF00FF">When Zyra dies, she briefly returns to her plant form. After 2 seconds, she can press any ability to fire a thorn toward her cursor, dealing true damage to each enemy it strikes.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zyra/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Deadly Bloom  - </h3>
+       <p style="color:#FF00FF">Zyra grows a bud at target location. After a brief delay, it explodes, launching damaging thorns at all nearby enemies. If cast upon a seed, Deadly Bloom grows a Thorn Spitter plant, which fires at enemies from afar.</p><br />
+         <p>Thorns shoot from the ground, dealing 75/115/155/195/235 <span style="color:#66CC00"> (+0.6) magic damage</span>to enemies within the area. </p><br />
+         <p>Rampant Growth: If Deadly Bloom hits a seed, a Thorn Spitter grows, dealing 0.0<span style="color:#66CC00"> (+0.2) magic damage</span>. Lasts 10 seconds. </p><br/>
+       <ul>
+       <li>Cost: 75/80/85/90/95 Mana</li>
+       <li>Range: 825</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zyra/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Rampant Growth - </h3>
+        <p style="color:#FF00FF">Zyra plants a seed, granting vision of an area for up to 30 seconds. Other spells cast on seeds will turn them into plants, who fight for Zyra.</p><br />
+        <p>Passive: Grants 4/8/12/16/20% Cooldown Reduction.</p><br/>
+        <p>Active: Plants a seed, lasting 30 seconds. If an enemy Champion steps on a seed, it will be destroyed but they will be revealed for 2 seconds.</p><br />
+       <p>Zyra stores a seed every 0.0 seconds (Max: 2 seeds stored, 4 seeds planted).
+</p><br/>
+<p>Rampant Growth: Cast spells on seeds to grow plants. Plant damage is based on Zyra's level. Extra plants striking the same target deal 50% less damage.</p><br/>
+       <ul>
+       <li>Cost:<br/> 1 Seed</li><br/>
+       <li>Range: 825</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zyra/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Grasping Roots - </h3>
+        <p style="color:#FF00FF">Zyra sends forth vines through the ground to ensnare her target, dealing damage and rooting enemies they come across. If cast upon a seed, Grasping Roots grows a Vine Lasher, whose short range attacks reduce enemy movement speed.</p><br />
+        <p>ends forward vines dealing 60/95/130/165/200<span style="color:#66CC00"> (+0.5) magic damage</span> and rooting enemies for 0.75/1/1.25/1.5/1.75 second.</p><br />
+       <p>Rampant Growth: If Grasping Roots hits a seed, a Vine Lasher grows dealing 0.0<span style="color:#66CC00"> (+0.2) magic damage</span> and slowing enemies by 30% for 2 seconds. Lasts 10 seconds.</p><br/>
+       <ul>
+       <li>Cost: 70/75/80/85/90 Mana</li>
+       <li>Range: 1100</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zyra/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Stranglethorns - </h3>
+        <p style="color:#FF00FF">Zyra summons a twisted thicket at her target location, dealing damage to enemies as it expands and knocking them airborne as it contracts.</p><br />
+        <p>Summons the fury of nature, growing a twisted thicket at target location which deals 180/265/350<span style="color:#66CC00"> (+0.7) magic damage</span> to enemies in the target area.</p><br />
+            <p>He chases down enemies continually dealing 35<span style="color:#66CC00"> (+0.2) magic damage</span>to all enemies in the area as it expands. After 2 seconds, the vines snap upward knocking enemies into the air.</p><br />
+              <p>Rampant Growth: Plants within the thicket are enraged, increasing their Attack Speed by 50%.</p><br />
+       <ul>
+       <li>Cost: 100/120/140 Mana</li>
+       <li>Range: 700</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

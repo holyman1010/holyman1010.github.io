@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="coin-slider.js"></script>
+
+	<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+
+
+	<title>Coin Slider: jQuery Image Slider Plugin with Unique Effects</title>
+</head>
+<body> 
+
+		<div id="games" class="coin-slider">
+
+			<a href="http://www.minininjas.com/" target="_blank">
+				<img src="1.jpg" alt="Mini Ninjas" />
+				
+			</a>
+
+			<a href="http://www.princeofpersiagame.com/" target="_blank">
+				<img src="2.jpg" alt="Price of Persia" />
+			</a>
+
+			<a href="http://spidermandimensions.marvel.com/" target="_blank">
+				<img src="3.jpg" alt="Spiderman: Shattered Dimensions" />
+			</a>
+
+			<a href="http://brinkthegame.com/" target="_blank">
+				<img src="4.jpg" alt="Brink" />
+			</a>
+
+		
+
+		</div>
+		<script>
+			$('#games').coinslider({
+					width: 280, // width of slider panel
+					height: 158, // height of slider panel
+					spw: 7, // squares per width
+					sph: 5, // squares per height
+					delay: 3000, // delay between images in ms
+					sDelay: 30, // delay beetwen squares in ms
+					opacity: 0.7, // opacity of title and navigation
+					titleSpeed: 500, // speed of title appereance in ms
+					effect: '', // random, swirl, rain, straight
+					navigation: true, // prev next and buttons
+					links : true, // show images as links
+					hoverPause: true // pause on hover
+				});
+		</script>
+
+</body>
+</html>

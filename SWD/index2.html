@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>軒轅劍</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+	var flashvars = {};		
+	var params = {};	
+	var attributes = {};	
+    swfobject.embedSWF('movie.swf', 'flashWrap', '100%', '100%', '9.0.0', 'js/expressinstall.swf', flashvars, params, attributes);
+	
+	function callPopup(){ $("a#popup").trigger("click"); }
+	
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+		});
+</script>
+<style type="text/css">    
+    body{
+		width	: 100%;
+        height	: 100%;
+        margin	: 0;
+        padding	: 0;
+    }
+    #flashWrap{
+		width	:100%;
+		height: 100%;
+    }
+</style>
+
+</head>
+
+<body scroll="auto">
+        <div id="flashWrap">
+        <!--<embed width="100%" height="100%" src="flash/index.swf" type="application/x-shockwave-flash" flashvars="newVar=Alex."/>-->
+            <p><strong>Flash說明</strong></p>
+                
+             <p><a href="http://www.adobe.com/go/getflashplayer">
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+                </a>
+            </p>
+         <a style="display:none;" class="fancybox fancybox.iframe" href="visual5.html" id="meet"></a>
+		</div>
+		
+</body>
+</html>

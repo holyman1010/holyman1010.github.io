@@ -1,0 +1,13 @@
+body{ background-color:#AAAAAA;}
+td { font-size: 12px; color:#000000;}
+a:visited { TEXT-DECORATION: none}
+a:link { TEXT-DECORATION: none}
+.a:link { COLOR:#000000; TEXT-DECORATION: none}
+.a:visited { COLOR: #000000; TEXT-DECORATION: none}
+.a:hover { COLOR: #FFFFFF; TEXT-DECORATION:underline }
+.a:active { COLOR: #990099; TEXT-DECORATION: none}
+.inputbox {  border: 1px #C6C3C6 dotted; background-color: #F7F3F7; font-size: 14px}
+.page{ font-size:large; font-style:inherit; color:#990099; }
+
+.headtitle{background-color:#444444;font-size:large;font-weight:bold;}
+.headtext{color:#ffffff;font-size:large;font-weight:bold;}

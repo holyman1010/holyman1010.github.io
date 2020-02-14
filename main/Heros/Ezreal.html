@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ezreal</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Ezreal skill//
+	     $(function() {
+	  var $attact = $('#ezreal #Attact');
+	  var $Health = $('#ezreal #Health');
+	  var $Spells = $('#ezreal #Spells');
+       var $Difficulty = $('#ezreal #Difficulty');
+	   var $Ez_skill = $('#Ez_skill');
+	   var $Ez_name = $('#Ez_name');
+	   var $story = $('#Ez_story');
+	     $Ez_skill.stop(false, true).animate({right:"200px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Ez_name.stop(false, true).animate({left:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"96px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"76px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+  
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Ezreal/vid/Ezreal.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+    
+</head>
+
+<body>
+<div id="link">
+
+<div id="Ez_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="ezreal">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Ez_name"><img src="../images/skills/Ezreal/Ezreal.png" width="468" height="130" /></div>
+<div id="Ez_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">E</span>zreal was born with the gift of magic flowing through his veins. Ezreal, however, was also born with a much stronger sense of wanderlust. Put into school to become a skilled techmaturgist, Ezreal quickly became bored with magical studies. By the time the boy genius was eight years old, he had fully mapped out the underground tunnels of Piltover. The quality of his work was so great that the government of Piltover purchased his maps and salaried his services as Piltover's Grandmaster Explorer. This sealed the deal on Ezreal's path in life - he would eschew the arcane arts in favor of archaeology. Since then, countless of Ezreal's adventures have been written about as romanticized stories.</p>
+                <br/>
+                <p>One of Ezreal's latest adventures, however, has brought him face-to-face with his other legacy - his latent magical power. While exploring the pyramids of Shurima Desert, Ezreal uncovered an amulet of incredible power. Aside from the sheer size of the amulet (it was made for a being easily twice Ezreal's size), it allows the wielder to control and shape magical energy - provided a source of magic is in the vicinity. This allowed Ezreal to tap into his natural talent for magic without having to put any serious effort into it - a big win for the Prodigal Explorer. The drawback is that for some unknown reason, the amulet is attuned with summoning magic. Without warning, Ezreal may find himself acting as a champion for, as he puts it, ''a summoner hell-bent on resolving some irrelevant world-shattering League conflict.'' Still, Ezreal feels being summoned into a Field of Justice on occasion is a small price to pay.</p>
+                <br/>
+                <p style="color:#FFCC00">''There's little time to study musty tomes when you're busy crawling around where the musty tomes originally came from.'' Such is Ezreal's credo.</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+   <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Ezreal/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Rising Spell Force - </h3>
+        <p style="color:#FF00FF"> Hitting a target with any of Ezreal's abilities increases his Attack Speed by 10% for 6 seconds (effect stacks up to 5 times).</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Ezreal/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Mystic Shot - </h3>
+        <p style="color:#FF00FF">Ezreal fires a bolt of energy which reduces all of his cooldowns by 1 second if it strikes an enemy unit.</p><br />
+        <p>Ezreal fires a bolt of energy, dealing 35/55/75/95/115 <span style="color:#FFCC00">(+1.0) physical damage</span><span style="color:#66CC00"> (+0.2) magic damage</span> (applies on-hit effects). </p><br />
+        <p>Ezreal's cooldowns are reduced by 1 second if Mystic Shot hits a target.</p><br />
+       <ul>
+       <li>Cost: 28/31/34/37/40 Mana</li>
+       <li>Range: 1150</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Ezreal/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Essence Flux - </h3>
+        <p style="color:#FF00FF">Ezreal fires a fluctuating wave of energy, dealing magic damage to enemy champions, while increasing the Attack Speed of allied champions.</p><br />
+        <p>Ezreal fires a wave of energy that damages all enemy champions it passes through for 70/115/160/205/250 <span style="color:#66CC00">(+0.8) magic damage</span>. </p><br />
+        <p>Allied champions hit by the wave have their Attack Speed increased by 20/25/30/35/40% for 5 seconds.</p><br />
+       <ul>
+       <li>Cost: 50/60/70/80/90 Mana</li>
+       <li>Range: 1000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Ezreal/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Arcane Shift - </h3>
+        <p style="color:#FF00FF">Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit.</p><br />
+        <p>Ezreal teleports to a target nearby location and fires a homing bolt at the nearest enemy unit, dealing 75/125/175/225/275<span style="color:#66CC00"> (+0.75) magic damage</span>.</p><br />
+       
+       <ul>
+       <li>Cost: 90 Mana</li>
+       <li>Range: 475</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Ezreal/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Trueshot Barrage - </h3>
+        <p style="color:#FF00FF">Ezreal channels for 1 second to fire a powerful barrage of energy missiles which do massive damage to each unit they pass through (deals 8% less damage to each unit it passes through).</p><br />
+        <p>Ezreal channels for 1 second to fire a barrage of missiles dealing 350/500/650 <span style="color:#FFCC00">(+1.0) physical damage</span><span style="color:#66CC00"> (+0.9) magic damage</span> to each unit it passes through. However, it deals 8% less damage for each unit it hits (Minimum 30%).</p><br />
+       
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 20000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+      <div id="dif_pop_up">
+      <p>Difficulty</p>  
+      </div>
+</div>
+
+</body>
+</html>

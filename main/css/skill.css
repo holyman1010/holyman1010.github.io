@@ -1,0 +1,1068 @@
+@charset "UTF-8";
+body{
+	background-color:#000000;
+ 	overflow:hidden;
+}
+
+#link {
+	height: 838px;
+	width: 1340px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	
+}
+ul li.skill_passive{
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+	float: left;
+	border: 1px solid #333;
+	margin-top: 35px;
+	margin-left: 14px;
+	margin-right: 5px;
+}
+ul li.skill_q, ul li.skill_w, ul li.skill_e, ul li.skill_r{
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+	float: left;
+	margin-top: 35px;
+	border: 1px solid #333;
+	margin-right: 8px;
+}
+   /* HOVER STYLES */
+      div#skill_passive, div#skill_q, div#skill_w, div#skill_e, div#skill_r{
+	display: none;
+	position: absolute;
+	width: 280px;
+	padding: 10px;
+	border: 1px solid #999999;
+	font-size: 90%;
+	background-color: rgba(18%, 24%, 35%, 0.7);
+	color: #FFF;
+	z-index: 3;
+	text-shadow:1px 1px 5px black;
+      }  
+	  div#skill_pic{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 66px;
+ 	margin-right:10px;
+	text-align: center;
+		 }
+		div#skill_pic img{
+	border: 1px solid #000;			
+			 }
+		div#skill_txt{
+	display: block;
+	float: left;
+	height: 100%;
+	width: 200px;
+		 }
+	div#skill_txt ul, div#skill_txt ul li{
+	list-style-type: square;
+	color: #3FF;
+		}
+	#skill_animation{
+	display: block;
+	height: 90px;
+	width: 220px;
+	left: 36px;
+	top: 26px;
+	position: relative;
+	z-index: 2;
+}
+ #atk_pop_up, #hea_pop_up, #spe_pop_up, #dif_pop_up{
+	display: none;
+	position: absolute;
+	width: 70px;
+	padding: 3px;
+	border: 1px solid #999999;
+	font-size: 90%;
+	background-color: rgba(18%, 24%, 35%, 0.7);
+	color: #FFF;
+	z-index: 3;
+	text-align: center;
+      }  
+#Attact{
+	background-image: url(../images/skills/Attact.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 16px;
+	width: 0px;
+	border: 1px solid #CCC;
+	display: inline-block;
+	clear: left;
+	margin-bottom: 4px;
+}
+#Health{
+	background-image: url(../images/skills/Health.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 16px;
+	width: 0px;
+	border: 1px solid #CCC;
+	display: inline-block;
+	clear: left;
+	margin-bottom: 4px;
+}
+#Spells{
+	background-image: url(../images/skills/Spells.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 16px;
+	width: 0px;
+	border: 1px solid #CCC;
+	display: inline-block;
+	clear: left;
+	margin-bottom: 4px;
+}
+#Difficulty{
+	background-image: url(../images/skills/Difficulty.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 16px;
+	width: 0px;
+	border: 1px solid #CCC;
+	display: inline-block;
+	clear: left;
+	margin-bottom: 4px;
+}
+#video{
+	background-color:#000000;
+	overflow:hidden;
+}
+/*Aatrox*/
+#Aatrox_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Aatrox/Aatrox_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Aatrox_name{
+	height: 130px;
+	width: 563px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Aatrox_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+
+/*Annie*/
+#An_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Annie/Annie_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#An_name{
+	height: 130px;
+	width: 468px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#An_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Cho_Gath*/
+#Ch_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Cho_Gath/Cho_Gath_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Ch_name{
+	height: 130px;
+	width: 626px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Ch_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Darius*/
+#Da_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Darius/Darius_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Da_name{
+	height: 130px;
+	width: 470px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Da_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+
+/*Diana*/
+#Di_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Diana/Diana_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Di_name{
+	height: 130px;
+	width: 470px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Di_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Draven*/
+#Dr_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Draven/Draven_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Dr_name{
+	height: 130px;
+	width: 550px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Dr_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Elise*/
+#El_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Elise/Elise_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#El_name{
+	height: 130px;
+	width: 469px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 0px;
+}
+#El_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Ezreal*/
+#Ez_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Ezreal/Ezreal_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Ez_name{
+	height: 130px;
+	width: 468px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Ez_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Fiddlesticks*/
+#Fi_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Fiddlesticks/Fiddlesticks_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Fi_name{
+	height: 130px;
+	width: 900px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Fi_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Galio*/
+#Ga_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Galio/Galio_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Ga_name{
+	height: 130px;
+	width: 550px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Ga_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Hecarim*/
+#He_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Hecarim/Hecarim_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#He_name{
+	height: 130px;
+	width: 570px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#He_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Jayce*/
+#Ja_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Jayce/Jayce_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Ja_name{
+	height: 130px;
+	width: 570px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Ja_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Janna*/
+#Ja_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Janna/Janna_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Ja_name{
+	height: 130px;
+	width: 690px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Ja_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Kayle*/
+#Ka_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Kayle/Kayle_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Ka_name{
+	height: 130px;
+	width: 469px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Ka_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Kha'Zix*/
+#Kh_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Kha_Zix/Kha_Zix_skill.png);
+	top: 30px;
+	opacity: 0;
+	left: 1200px;
+}
+#Kh_name{
+	height: 130px;
+	width: 550px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Kh_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Lissandra*/
+#Li_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Lissandra/Lissandra_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Li_name{
+	height: 130px;
+	width: 690px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Li_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Lucian*/
+#Lucian_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Lucian/Lucian_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Lucian_name{
+	height: 130px;
+	width: 563px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Lucian_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+
+/*Lulu*/
+#Lu_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Lulu/Lulu_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Lu_name{
+	height: 130px;
+	width: 407px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Lu_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 100px;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Nami*/
+#Na_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Nami/Nami_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Na_name{
+	height: 130px;
+	width: 407px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Na_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Nocturne*/
+#No_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Nocturne/Nocturne_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#No_name{
+	height: 130px;
+	width: 650px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#No_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Quinn_And_Valor*/
+#Qu_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Quinn_And_Valor/Quinn_And_Valor_skill.png);
+	top: 30px;
+	left: 1000px;
+	opacity: 0;
+}
+#Qu_name{
+	height: 130px;
+	width: 930px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Qu_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Thresh*/
+#Th_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Thresh/Thresh_skill.png);
+	top: 30px;
+	left: 1000px;
+	opacity: 0;
+}
+#Th_name{
+	height: 130px;
+	width: 587px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Th_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Udyr*/
+#Udyr_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Udyr/Udyr_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+	z-index: 3;
+}
+#Udyr_name{
+	height: 130px;
+	width: 563px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Udyr_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+	z-index: 3;
+}
+
+/*Varus*/
+#Va_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Varus/Varus_skill.png);
+	top: 30px;
+	right: 1200px;
+	opacity: 0;
+}
+#Va_name{
+	height: 130px;
+	width: 587px;
+	position: absolute;
+	z-index: 15;
+	left: 800px;
+	top: 30px;
+	opacity: 0;
+}
+#Va_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	right: 70px;
+	bottom: 60px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0
+}
+/*Vi*/
+#Vi_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Vi/Vi_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Vi_name{
+	height: 130px;
+	width: 469px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Vi_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Zac*/
+#Zac_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Zac/Zac_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Zac_name{
+	height: 130px;
+	width: 469px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Zac_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+/*Zed*/
+#Zed_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Zed/Zed_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Zed_name{
+	height: 130px;
+	width: 475px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Zed_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}
+
+/*Zyra*/
+#Zy_skill{
+	display: block;
+	float: right;
+	height: 267px;
+	width: 271px;
+	position: absolute;
+	background-image: url(../images/skills/Zyra/Zyra_skill.png);
+	top: 30px;
+	left: 1200px;
+	opacity: 0;
+}
+#Zy_name{
+	height: 130px;
+	width: 475px;
+	position: absolute;
+	z-index: 15;
+	top: 30px;
+	opacity: 0;
+	right: 800px;
+}
+#Zy_story{
+	background-image: url(../images/skills/story.png);
+	display: block;
+	height: 402px;
+	width: 683px;
+	position: absolute;
+	bottom: 80px;
+	color: #FFF;
+	overflow: hidden;
+	opacity:0;
+	left: 100px;
+}

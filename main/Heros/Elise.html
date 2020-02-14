@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Elise</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Ezreal skill//
+	     $(function() {
+	
+	  var $attact = $('#elise #Attact');
+	  var $Health = $('#elise #Health');
+	  var $Spells = $('#elise #Spells');
+       var $Difficulty = $('#elise #Difficulty');
+	   var $El_skill = $('#El_skill');
+	   var $El_name = $('#El_name');
+	   var $story = $('#El_story');
+	
+	     $El_skill.stop(false, true).animate({left:"550px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $El_name.stop(false, true).animate({right:"900px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"116px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"96px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"155px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Elise/Elise.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="El_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="elise">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="El_name"><img src="../images/skills/Elise/Elise.png" width="469" height="130" /></div>
+<div id="El_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">V</span>icious and elegant, Elise's charismatic grace lures the innocent and greedy alike into her web of deceit. While her victims may discover her true intentions, no one has ever lived to reveal what dark secrets lie behind her enigmatic guise.</p>
+                <br/>
+                <p>In dark halls, hidden from society, Elise preached the word of a mythical spider god. Her desperate followers hungered for the god's favor, believing its blessings to be the source of Elise's vibrance and power. When Elise proclaimed that she would lead a pilgrimage to the spider god's shrine, she selected only her most devout disciples to join her. Ecstatic, the chosen few followed her blindly as she led them on a perilous journey across the sea. When they came ashore at their final destination, the mysterious Shadow Isles, Elise led them to a cavern shrouded in webs. Expecting a shrine, the group looked to their priestess in confusion. She turned to the crowd and raised her arms in triumph, revealing strange, spiderlike legs that grew out of her back. Seeing her terrifying true form for the first time, Elise's followers turned to flee, but she conjured magical webs to trap them. With her victims ensnared, she turned to face the cave and uttered a screeching cry. An enormous undead spider-beast emerged from the darkness, dragging its hideous bulk on thick, pointed legs. Elise's followers could only scream as the monstrous spider ate them alive. She approached the sated creature, extracted its venom, and drank the strange substance. An immediate sense of rejuvenation flowed through her veins. With mortality delayed once again, Elise left to rejoin her congregation. They were overjoyed to hear that their fellows had chosen to remain at the spider god's sacred home. Elise reassured her disciples that she would lead another pilgrimage in due time. The spider god would be waiting.</p>
+                <br/>
+                <p style="color:#FFCC00">''The truly faithful need not fear the spider's embrace.''-- Elise</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Elise/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Spider Swarm - </h3>
+        <p style="color:#FF00FF">Human Form: When Elise's spells hit an enemy she readies a spiderling.</p><br/>
+         <p style="color:#FF00FF">Spider Form: Elise summons her Spiderlings to attack nearby foes.</p>
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Elise/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Neurotoxin / Venomous Bite - </h3>
+       <p style="color:#FF00FF">Human Form: Deals damage based upon how high the target's health is.</p><br />
+       <p style="color:#FF00FF">Spider Form: Lunges at an enemy and deals damage based upon how low its health is.</p><br />
+         <p>Deals magic damage equal to 50/95/140/185/230 plus 8% <span style="color:#66CC00"> (+0.03) magic damage</span> of the target's current health. Max 60/120/180/240/300 bonus damage to monsters.</p><br />
+       <ul>
+       <li>Cost: 60 Mana</li>
+       <li>Range: 650</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Elise/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Volatile Spiderling / Skittering Frenzy - </h3>
+        <p style="color:#FF00FF">Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target.</p><br />
+        <p style="color:#FF00FF">Spider Form: Elise and her Spiderlings gain attack speed and heal Elise on each attack.</p><br />
+        <p>Summons a venom-gorged Spiderling that moves to target location and explodes, dealing 75/125/175/225/275<span style="color:#66CC00"> (+0.8) magic damage </span> when it nears an enemy or after 3 seconds.</p><br />
+       
+       <ul>
+       <li>Cost:<br/> 60/70/80/90/100 Mana</li><br/>
+       <li>Range: 950</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Elise/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Cocoon / Rappel - </h3>
+        <p style="color:#FF00FF">Human Form: Stuns and reveals the first enemy unit hit.</p><br />
+             <p style="color:#FF00FF">Spider Form: Elise and her Spiderlings ascend into the air and then descend upon target enemy.</p><br />
+        <p>Stuns and reveals the first enemy hit for 1.5 seconds.</p><br />
+       
+       <ul>
+       <li>Cost: 65 Mana</li>
+       <li>Range: 1075</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Elise/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Spider Form - </h3>
+        <p style="color:#FF00FF">Transforms into a menacing spider with new abilities. While in Spider Form, Elise deals bonus magic damage on attack and has increased movement speed, armor, and magic resistance.</p><br />
+        <p>Elise transforms into a menacing spider, granting access to arachnid abilities.</p><br />
+            <p>Spider Form: Elise deals 10/20/30/40 <span style="color:#66CC00"> (+0.3) bonus magic damage</span> per attack and gains 10 Movement Speed, 10/15/20/25<span style="color:#66CC00">Armor</span>, and 10/15/20/25<span style="color:#66CC00">Magic Resistance.</span></p><br />
+              <p>Spiderlings: Spiderlings deal 10/20/30/40<span style="color:#66CC00">(+0.1) magic damage</span>and take 10/20/30/40% reduced damage from multi-target abilities. Max 2/3/4/5 Spiderlings. </p><br />
+       <ul>
+       <li>Cost: No Cost</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

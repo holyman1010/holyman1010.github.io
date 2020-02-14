@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Aatrox</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Aatrox skill//
+	     $(function() {
+	
+	  var $attact = $('#aatrox #Attact');
+	  var $Health = $('#aatrox #Health');
+	  var $Spells = $('#aatrox #Spells');
+       var $Difficulty = $('#aatrox #Difficulty');
+	   var $Aatrox_skill = $('#Aatrox_skill');
+	   var $Aatrox_name = $('#Aatrox_name');
+	   var $story = $('#Aatrox_story');
+	
+	     $Aatrox_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Aatrox_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"95px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"54px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"95px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+			var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Aatrox/login_Aatrox.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body><div id="link">
+
+<div id="Aatrox_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="aatrox">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Aatrox_name"><img src="../images/skills/Aatrox/Aatrox.png" width="563" height="130" /></div>
+<div id="Aatrox_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">A</span>atrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's seemingly living blade drinks in their blood, empowering him and fueling his brutal, elegant campaign of slaughter.</p>
+                <br/>
+                <p>The earliest tale of Aatrox is as old as recorded history. It tells of a war between two great factions remembered only as the Protectorate and the Magelords. Over time, the Magelords won a series of crushing victories, leaving them on the brink of obliterating their sworn enemy forever. On the day of their final confrontation, the Protectorate army found themselves outnumbered, exhausted, and poorly equipped. They braced for inevitable defeat.</p>
+                <br/>
+                <p>Just when all hope seemed lost, Aatrox appeared among the ranks of the Protectorate. With but a few words, he urged the soldiers to fight to the last before throwing himself into battle. His presence inspired the desperate warriors. At first, they could only watch in awe as this unknown hero cleaved through their enemies, his body and blade moving in unison as if one being. Soon, the warriors found themselves imbued with a potent thirst for battle. They followed Aatrox into the fray, each fighting with the furious strength of ten until they had won a most unlikely victory.</p><br/>
+                <p>Aatrox vanished after that battle, but the Protectorate army's newfound fury did not. Their surprising triumph led to many more until they were able to finally return home victorious. Their countrymen hailed them as heroes, but though they had saved their entire civilization from destruction, darkness lingered in the mind of each warrior. Something within them had changed. Over time, their memories of battle faded, only to be replaced with a grim revelation: their acts of heroism were, in fact, brutal atrocities committed by their own hands.</p><br/>
+                <p>Tales like these appear among the myths of many cultures. If they are all to be believed, Aatrox's presence has changed the course of some of the most important wars in history. Though these stories remember him as a savior in dark times, Aatrox's true legacy may be a world filled with conflict and strife.</p><br/>
+                <p style="color:#FFCC00">''Some fight for honor, some fight for glory. It matters only that you fight.''
+-- Aatrox </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Aatrox/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Blood Well - </h3>
+        <p style="color:#FF00FF">When using an ability that costs Health, Aatrox stores the self-inflicted damage into the Blood Well. Upon taking fatal damage Aatrox extracts the blood from the well and recovers it as health over a brief duration. Additionally, Aatrox gains 1% Attack Speed for every 2% blood that is in the well. </p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Aatrox/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Dark Flight - </h3>
+       <p style="color:#FF00FF">Aatrox takes flight and slams down at a targeted location, dealing damage and knocking up enemies at the center of impact. </p><br />
+         <p>Aatrox takes flight and slams down at a targeted location, dealing 70/115/160/205/250<span style="color:#FFCC00"> (+60% bonus Attack Damage) </span>physical damage to all nearby enemies and knocking up targets at the center of impact for 1 second. </p><br/>
+       <ul>
+       <li>Cost: 10% of Current Health </li>
+       <li>Range: 600</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Aatrox/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Blood Thirst / Blood Price- </h3>
+        <p style="color:#FF00FF">While toggled on Aatrox deals bonus damage every third subsequent attack at the expense of his own Health. While toggled off Aatrox restores Health every third subsequent attack. </p><br />
+        <p>While toggled off Aatrox benefits from Blood Thirst, while toggled on Blood Price is activated and removes Blood Thirst.</p><br />
+      <p></p>
+       <ul>
+       <li>Cost: No Cost </li><br/>
+       <li>Range: self</li>
+       </ul>
+       <br/>
+        <p><span style="color:#FFCC00">Blood Thirst:</span> Every third attack, Aatrox restores 20/25/30/35/40<span style="color:#FFCC00">(+25% bonus Attack Damage)</span> Health, increased by 200% when below half Health.</p>
+            <p><span style="color:#FFCC00">Blood Price: </span> Every third attack, Aatrox deals 60/95/130/165/200<span style="color:#FFCC00">(+100% bonus Attack Damage) </span> bonus physical damage and loses Health. </p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Aatrox/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Blades of Torment - </h3>
+        <p style="color:#FF00FF">Aatrox unleashes the power of his blade, dealing damage to all enemies hit and slowing them. </p><br />
+        <p>Aatrox unleashes the power of his blade, dealing 75/120/165/210/255 <span style="color:#66CC00"> (+60% Ability Power) </span> <span style="color:#FFCC00">(+60% bonus Attack Damage)  </span>Magic Damage to all enemies hit and slowing them by 40% for 1.75/2/2.25/2.5/2.75 seconds. </p><br />
+            
+       <ul>
+       <li>Cost: 5% of Current Health </li>
+       <li>Range: 1000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Aatrox/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Massacre - </h3>
+        <p style="color:#FF00FF">Aatrox draws in the blood of his foes, damaging all nearby enemy champions around him and gaining increased Attack Speed and bonus Attack Range for a short duration. </p><br />
+        <p>Aatrox draws in the blood of his foes, dealing 200/300/400 <span style="color:#66CC00">(+100% Ability Power) </span> magic damage to all enemy champions around him, increasing his Attack Speed by 40/50/60%, and gaining 175 Attack Range for 12 seconds. </p><br />
+        
+       <ul>
+       <li>Cost: No Cost</li>
+       <li>Range: 550</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+
+</body>
+</html>

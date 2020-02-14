@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Zed</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Zed skill//
+	     $(function() {
+	
+	  var $attact = $('#zed #Attact');
+	  var $Health = $('#zed #Health');
+	  var $Spells = $('#zed #Spells');
+       var $Difficulty = $('#zed #Difficulty');
+	   var $Zed_skill = $('#Zed_skill');
+	   var $Zed_name = $('#Zed_name');
+	   var $story = $('#Zed_story');
+	
+	     $Zed_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Zed_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"56px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"19px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Zed/Zed.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Zed_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="zed">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Zed_name"><img src="../images/skills/Zed/Zed.png" width="475" height="130" /></div>
+<div id="Zed_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">Z</span>ed is the first ninja in 200 years to unlock the ancient, forbidden ways. He defied his clan and master, casting off the balance and discipline that had shackled him all his life. Zed now offers power to those who embrace knowledge of the shadows, and slays those who cling to ignorance.</p>
+                <br/>
+                <p>An orphan, Zed was taken in and trained by a great ninja master. Only one other student appeared to be Zed's equal - the master's son, Shen. It seemed Zed could never win the favor of the master, as every match between the rivals ended in a draw. Frustrated and jealous, he sought an advantage. The young ninja ventured into a sealed part of the clan's temple, where he found an ornate, foreboding box. Sensing the dark knowledge within, Zed knew he should not open it, but he peered inside nonetheless. In an instant, shadows touched his mind, revealing techniques that had long been hidden. Now armed with a secret edge, he challenged Shen, and this time he defeated the master's son. He expected praise and recognition in his moment of victory, but somehow the master knew Zed had used forbidden ways, and banished him.</p>
+                <br/>
+                <p>Humiliated, the young ninja wandered for years. His bitterness turned to ambition, and he began to train others in the style of the shadows. As his power grew, so did his circle of followers, but he knew that without the box, his technique would never be perfect. One day, Zed looked at his followers and saw that his students were now an army. He led them back to the temple to claim his prize. At the gates, he was surprised to find the old master waiting, receiving Zed and his disciples as if they were welcome guests. The old man laid his sword at Zed's feet, declaring that he had failed Zed as his master. By banishing his former student, the master had doomed Zed to the shadows, instead of leading him to the balanced path. The old man implored Zed to enter the temple, destroy the box, and lead his followers to balance. The dark ninja followed the master inside. Moments later, the assembled ninjas heard Zed cry out in pain. Mysteriously, he emerged unscathed, and threw the severed head of the master at Shen's feet. Screaming in rage, Zed commanded his followers to slaughter the master's students and seize the box.</p><br/>
+                <p>That day, the old ninja order fell. Though many students died, some escaped thanks to Shen's heroic efforts. Now the temple is a dark training ground for the Order of the Shadow. Zed rules as the Order's master, and his edict is simple: perfect one's technique, and kill all ninjas who refuse to embrace the shadows.</p><br/>
+                <p style="color:#FFCC00">''Balance is a lie - we are the true ninjas.''-- Zed</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zed/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Contempt for the Weak - </h3>
+        <p style="color:#FF00FF">Zed's basic attacks against targets below 50% health deal 8% of the target's maximum health as bonus magic damage. This effect can only occur once every 10 seconds on the same target.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zed/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Razor Shuriken - </h3>
+       <p style="color:#FF00FF">Zed and his shadow both throw their spinning blades forward, dealing damage to any targets they pass through.</p><br />
+         <p>Zed and his shadows throw their shurikens, each dealing 75/110/145/180/215<span style="color:#66CC00"> (+1.0) physical damage</span> to the first enemy they pass through, and 60/88/116/144/172 <span style="color:#66CC00"> (+0.8) physical damage</span>  to each additional enemy.</p><br />
+         <p>Additional shurikens that hit the same enemy deal 50% less damage than the previous shuriken.</p><br/>
+       <ul>
+       <li>Cost: 75/70/65/60/55 Energy</li>
+       <li>Range: 900</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zed/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Living Shadow- </h3>
+        <p style="color:#FF00FF">Zed's shadow dashes forward, remaining in place for 4 seconds, and mimicking his spell casts. Zed can reactivate to swap places with the shadow.</p><br />
+        <p>Passive: Grants 5/10/15/20/25% additional bonus AD.</p><br />
+      <p>Zed's shadow dashes forward, remaining in place for 4 seconds. Reactivating Living Shadow will cause Zed to switch positions with this shadow.</p><br/>
+<p>Zed's shadows mimic his abilities. If an ability strikes any target twice, Zed restores 20/25/30/35/40 energy. Energy can only be restored once per mimicked ability.</p><br/>
+       <ul>
+       <li>Cost: 40/35/30/25/20 Energy</li><br/>
+       <li>Range: 550</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zed/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Shadow Slash - </h3>
+        <p style="color:#FF00FF">Zed and his shadow spins their blades, creating a burst of shadow energy. The shadow's spin slows.</p><br />
+        <p>Zed and his shadow slash, dealing 60/95/130/165/200<span style="color:#FFCC00">(+0.8) physical damage</span>to nearby enemies. </p><br />
+              <p>Each enemy hit by Zed's Shadow Slash reduces Living Shadow's cooldown by 1 second. Each enemy hit by a mimicked Shadow Slash will be slowed by 20/25/30/35/40% for 1.5 seconds.</p><br />
+              <p>Enemies hit by both Shadow Slashes will be slowed by 30/37.5/45/52.5/60% but will not take additional damage.</p><br/>
+       <ul>
+       <li>Cost: 50 Energy</li>
+       <li>Range: 290</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Zed/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Death Mark  - </h3>
+        <p style="color:#FF00FF">Zed dashes to target Champion, projecting a shadow behind them, and marking the champion for death. After 3 seconds, the mark will trigger, dealing a percentage of the damage Zed has dealt while the mark was active.</p><br />
+        <p>Zed becomes untargetable and dashes to target enemy champion. Upon arrival, he marks the target for death and spawns a Living Shadow behind the target. This shadow lasts 4 seconds and mimics Zed's abilities. Reactivating Death Mark will cause Zed to switch positions with this shadow.</span></p><br />
+          <p>After 3 seconds, the mark will trigger, dealing physical damage equal to 1 plus 20/35/50% of all magic and physical damage dealt to the target by Zed and his shadows while the mark was active.</p><br/>
+       <ul>
+       <li>Cost: No Cost</li>
+       <li>Range: 625</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

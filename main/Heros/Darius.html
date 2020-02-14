@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Darius</title>
+ <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Darius skill//
+	     $(function() {
+	  var $attact = $('#darius #Attact');
+	  var $Health = $('#darius #Health');
+	  var $Spells = $('#darius #Spells');
+       var $Difficulty = $('#darius #Difficulty');
+	   var $Da_skill = $('#Da_skill');
+	   var $Da_name = $('#Da_name');
+	   var $story = $('#Da_story');
+	     $Da_skill.stop(false, true).animate({right:"200px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Da_name.stop(false, true).animate({left:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"176px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"96px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"36px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"56px"},{ duration: 2400, easing: 'easeInOutExpo'});
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Darius/Darius.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Da_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="darius">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Da_name"><img src="../images/skills/Darius/Darius.png" width="470" height="130" /></div>
+<div id="Da_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">T</span>here is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened warrior. Orphaned at a young age, Darius had to fight to keep himself and his younger brother alive. By the time he joined the military, he had already developed the strength and discipline of a veteran soldier. The first true test of Darius's resolve occurred in a crucial battle against Demacia, where the Noxian forces were exhausted and outnumbered. Darius's captain called for his troops to retreat, but Darius refused to accept such an act of cowardice. Breaking formation, Darius strode towards the captain and decapitated him with one sweep of his gigantic axe. Both terrified and inspired, the soldiers followed Darius into battle and fought with incredible strength and fervor. After a long and grueling battle, they ultimately emerged victorious.</p>
+                <br/>
+                <p>Seizing momentum from this victory, Darius led his now fiercely loyal troops in a devastating campaign against Demacia. After proving his power on the battlefield, Darius turned his gaze homeward. He saw a Noxus riddled with weakness, where greedy, complacent nobles drained the nation's strength. Seeking to restore his country to greatness, Darius took it upon himself to reshape the Noxian leadership. He identified weak figureheads and violently removed them from their positions of power. Many in Noxus saw Darius's cull as an attempt to seize power, but he had a different plan for the throne. He had been watching the rise of Jericho Swain with keen interest. In Swain, Darius saw a leader with the mind and determination to bring Noxus to glory. Now allied with the Master Tactician, Darius works to unite the nation behind his vision of true Noxian strength.</p>
+                <br/>
+                <p style="color:#FFCC00">''A united Noxus could control the world - and would deserve to.''-- Darius</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+   <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Darius/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Hemorrhage - </h3>
+        <p style="color:#FF00FF">Darius aims his attacks strategically, causing his target to bleed. This effect stacks up to five times.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Darius/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Decimate - </h3>
+        <p style="color:#FF00FF">Darius swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle.</p><br />
+        <p>Deals 70/105/140/175/210<span style="color:#FFCC00">(+0.7) physical damage</span> to all nearby enemies in a circle. Champions in the outer half of the ability are struck by the blade, taking 50% additional damage.</p><br />
+        
+       <ul>
+       <li>Cost: 40 Mana</li>
+       <li>Range: 1</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Darius/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Crippling Strike - </h3>
+        <p style="color:#FF00FF">Darius's next attack strikes a crucial artery. As they bleed out, their movement and attack speed is slowed. Crippling Strike's cooldown is lower the more bloodied its target.</p><br />
+        <p>The next basic attack deals 120/140/160/180/200% damage and slows the target's movement and attack speed by 20/25/30/35/40% for 2 seconds.</p><br />
+        <p>Crippling Strike's base cooldown is reduced by 1 second for each stack of Hemorrhage on the target.</p><br />
+       <ul>
+       <li>Cost: 30/35/40/45/50 Mana</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Darius/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Apprehend - </h3>
+        <p style="color:#FF00FF">Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.</p><br />
+        <p><span style="color:#FFCC00">Passive</span>: Darius's physical damage ignores 5/10/15/20/25% of his target's Armor.</p><br />
+               <p><span style="color:#FFCC00">Active</span>: Pulls in all enemies in front of Darius.</p><br />
+       <ul>
+       <li>Cost: 45 Mana</li>
+       <li>Range: 540</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Darius/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Noxian Guillotine - </h3>
+        <p style="color:#FF00FF">Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed.</p><br />
+        <p>Leaps to target enemy champion and strikes a lethal blow, dealing 160/250/340  <span style="color:#FFCC00">(+0.75) true damage</span>.</p><br />
+       <p>For each stack of Hemorrhage on the target, Noxian Guillotine deals an additional 20% damage. </p><br/>
+       <p>The cooldown is refreshed if Noxian Guillotine kills the target.</p><br/>
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 460</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+      <div id="dif_pop_up">
+      <p>Difficulty</p>  
+      </div>
+</div>
+
+</body>
+</html>

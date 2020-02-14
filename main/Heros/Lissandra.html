@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Lissandra</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Lissandra skill//
+	     $(function() {
+	
+	  var $attact = $('#lissandra #Attact');
+	  var $Health = $('#lissandra #Health');
+	  var $Spells = $('#lissandra #Spells');
+       var $Difficulty = $('#lissandra #Difficulty');
+	   var $Li_skill = $('#Li_skill');
+	   var $Li_name = $('#Li_name');
+	   var $story = $('#Li_story');
+	
+	     $Li_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Li_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"31px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"78px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"125px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"125px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+<script type="text/javascript">
+		var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Lissandra/Lissandra.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+
+</head>
+
+<body>
+<div id="link">
+
+<div id="Li_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="lissandra">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Li_name"><img src="../images/skills/Lissandra/Lissandra.png" width="690" height="130" /></div>
+<div id="Li_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">L</span>issandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze - she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ''The Ice Witch.'' The truth is much more sinister: Lissandra is a corruptor of nature who plots to unleash an ice age on the world.</p>
+                <br/>
+                <p>Centuries ago, Lissandra betrayed her tribe to evil creatures, known as the Frozen Watchers, in return for power. That was the last day that warm blood ran through her veins. With her corrupted tribesmen and the strength of the Watchers, she swept across the land like a terrible blizzard. As her empire spread, the world grew colder and ice choked the land. When the Watchers were defeated by ancient heroes, Lissandra did not lose faith and swore to prepare the world for their return.</p>
+                <br/>
+                <p>Lissandra worked to purge all knowledge of the Watchers from the world. Using magic to take human form, she masqueraded as numerous seers and elders. Over the course of generations, she rewrote the stories of the Freljord, and so the history of its people changed. Today the fragmented retellings of the Watchers are seen as children's tales. But this deception wasn't enough - Lissandra also needed an army.</p><br />
+                <p>She set her sights on the noble Frostguard tribe. Lissandra knew corrupting the Frostguard would take centuries, and so she launched her greatest deception. She murdered and stole the identity of the Frostguard leader. Then she slowly began to warp the tribe's proud traditions. When her human form grew old, she faked her own death and then murdered her successor to steal her identity. With each generation, the Frostguard grew more insular, cruel and twisted. Today, the world still sees them as a noble and peaceful tribe that guards against evil creatures like the Ice Witch. In truth, they now serve the witch and long for the glorious return of the Watchers.</p><br />
+                <p>Lissandra knows that on that day nations will fall and the world will be reborn in ice.</p><br />
+                <p style="color:#FFCC00">''Close your eyes and let the cold take you.'' -- Lissandra </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Lissandra/ability_5.jpg" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Iceborn - </h3>
+        <p style="color:#FF00FF">(Innate) Every 18 seconds Lissandra's next ability costs no mana. This cooldown is reduced by 1 second whenever Lissandra impairs an enemy's movement with an ability (Does not apply to movement-impairing effects from items). </p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Lissandra/ability_1.jpg" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Ice Shard - </h3>
+       <p style="color:#FF00FF">Throws a spear of ice that shatters when it hits an enemy, dealing magic damage and slowing Movement Speed. Shards pass through the target, dealing the same damage to other enemies hit. </p><br />
+         <p>Throws a spear of ice that shatters when it hits an enemy, dealing 75/110/145/180/215<span style="color:#66CC00"> (+65% Ability Power) magic damage</span> and slowing Movement Speed by 16/19/22/25/28% for 1.5 seconds. Shards then pass through the target, dealing the same damage to other enemies hit.  </p><br />
+       <ul>
+       <li>Cost: 85 Mana </li>
+       <li>Range: 725</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Lissandra/ability_2.jpg" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Ring of Frost - </h3>
+        <p style="color:#FF00FF">Freezes nearby enemies in ice, dealing magic damage and rooting them.</p><br />
+        <p>Freezes nearby enemies in ice, dealing magic damage and rooting them. <span style="color:#66CC00">  (+60% Ability Power) magic damage </span>to nearby enemies and roots them for 1.1/1.2/1.3/1.4/1.5 seconds.</p><br />
+       
+       <ul>
+       <li>Cost: 50 Mana</li>
+       <li>Range: 450</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Lissandra/ability_3.jpg" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Glacial Path - </h3>
+        <p style="color:#FF00FF">Lissandra creates an ice claw that deals magic damage. Reactivating this ability transports Lissandra to the claw's current location. </p><br />
+        <p>Casts an ice claw that deals 70/115/160/205/250<span style="color:#66CC00">(+60% Ability Power)</span> magic damage to all enemies hit. Reactivating this ability transports Lissandra to the claw's current location. </p><br />
+       
+       <ul>
+       <li>Cost: 80/85/90/95/100 Mana </li>
+       <li>Range: 1050</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Lissandra/ability_4.jpg" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Frozen Tomb - </h3>
+        <p style="color:#FF00FF">If cast on an enemy champion, the target is frozen solid, stunning it. If cast on Lissandra, she encases herself in dark ice, becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Movement Speed. </p><br />
+        <p>On Enemy Cast: Freezes target champion solid, stunning it for 1.5 seconds.</p><br />
+            <p>On Self Cast: Lissandra encases herself in dark ice for 2.5 seconds, becoming untargetable and invulnerable but unable to take any actions.Dark ice then emanates from the target dealing 150/250/350<span style="color:#66CC00"> (+70% Ability Power) magic damage</span> to enemies. The ice lasts for 3 seconds and slows enemy Movement Speed by 20/30/40%. </p><br />
+             
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 550</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

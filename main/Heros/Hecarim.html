@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Hecarim</title>
+ <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Hecarim skill//
+	     $(function() {
+	  var $attact = $('#hecarim #Attact');
+	  var $Health = $('#hecarim #Health');
+	  var $Spells = $('#hecarim #Spells');
+       var $Difficulty = $('#hecarim #Difficulty');
+	   var $He_skill = $('#He_skill');
+	   var $He_name = $('#He_name');
+	   var $story = $('#He_story');
+	     $He_skill.stop(false, true).animate({right:"200px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $He_name.stop(false, true).animate({left:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"113px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"76px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"96px"},{ duration: 2400, easing: 'easeInOutExpo'});
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Hecarim/Hecarim.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="He_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="hecarim">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="He_name"><img src="../images/skills/Hecarim/Hecarim.png" width="570" height="130" /></div>
+<div id="He_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">S</span>ince his first sighting on the northwestern shores of Valoran, the towering, armored specter known as Hecarim struck a chilling fear into the hearts of all who laid eyes upon him. No one had ever seen anything like his titanic, ethereal form before, and the mystery of his sudden arrival was deeply unnerving. When Hecarim began to march eastwards, leaving a trail of desolate, lifeless ground behind him, the villagers of the plains fled their homes for the safety of nearby Demacia. In the city's now-overcrowded taverns, rumors about this inhuman phantom spread in hushed whispers. Some claimed that he was the vengeful shade of an ancient warrior, intent on destroying all living beings; one man insisted that they had seen him leading an entire legion of spectral cavalrymen; others still believed him to be the creation of some hateful necromancer. One Demacian commander, seeking to dispel the terror that had gripped the city, assembled a few of his finest soldiers and rode out to turn back or destroy Hecarim.</p>
+                <br/>
+                <p>The commander led his soldiers to stand in Hecarim's path and braced for his assault. As the apparition bore down on them, an overwhelming sensation of dread gripped the warriors. The men, frozen in fear, could only scream as the ghostly titan ran them down, tearing them apart and trampling them beneath his iron hooves. Hecarim turned to the crippled, cowering commander and uttered a chilling statement: ''This is merely the beginning. No mortal army can withstand the might of the Shadow Isles.'' With that, Hecarim departed, resuming his grim march. Driven to insanity by his nightmarish experience, the commander stumbled back to Demacia, where his dire warnings were dismissed as the ravings of a madman. While Hecarim's origin and intent were still a mystery, his destination became clear when he reached the Institute of War and, in a voice both ominous and commanding, demanded entry into the League of Legends.</p>
+                <br/>
+                <p style="color:#FFCC00">''You don't understand...the shadows will consume us all...''-- Former Demacian Commander</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+   <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Hecarim/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Warpath - </h3>
+        <p style="color:#FF00FF">Hecarim can move through units and gains attack damage equal to a percentage of his bonus movement speed.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Hecarim/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Rampage - </h3>
+        <p style="color:#FF00FF">Hecarim cleaves nearby enemies dealing physical damage.</p><br />
+        <p>Hecarim cleaves nearby enemies for 50/85/120/155/190<span style="color:#FFCC00"> (+0.6) physical damage</span>. (66% damage to minions and monsters)</p><br />
+       <p>If Hecarim damages at least one enemy with this attack he gains a stack of Rampage, reducing the base cooldown of this skill by 1 second for a short duration. This effect can stack up to 2 times.</p><br/>
+       <ul>
+       <li>Cost: 25 Mana</li>
+       <li>Range: 350</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Hecarim/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Spirit of Dread - </h3>
+        <p style="color:#FF00FF">Hecarim deals magic damage to nearby enemies for a short duration. Hecarim gains health equal to a percentage of any damage those enemies suffer.</p><br />
+        <p>Hecarim deals 80/125/170/215/260<span style="color:#66CC00"> (+0.8) magic damage</span> over 4 seconds to all nearby enemies. Hecarim is healed for 10/15/20/25/30% of the damage these enemies take from any source.</p><br />
+        <p>Hecarim cannot heal more than 60/90/120/150/180 health from minions.</p><br />
+       <ul>
+       <li>Cost: 50/60/70/80/90 Mana</li>
+       <li>Range: 525</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Hecarim/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Devastating Charge - </h3>
+        <p style="color:#FF00FF">Hecarim gains increasing movement speed for a short duration. His next attack knocks the target back and deals additional physical damage based on the distance he has traveled since activating the ability.</p><br />
+        <p>Hecarim gains increasing movement speed for 4 seconds. His next attack knocks the target back dealing 40/75/110/145/180<span style="color:#FFCC00"> (+0.5) physical damage</span> to 80/150/220/290/360<span style="color:#FFCC00"> (+1.0) physical damage</span> based on how far Hecarim has traveled during Devastating Charge.</p><br />
+               
+       <ul>
+       <li>Cost: 60 Mana</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Hecarim/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Onslaught of Shadows - </h3>
+        <p style="color:#FF00FF">Hecarim summons spectral riders and charges forward, dealing magic damage in a line. Hecarim creates a shockwave when he finishes his charge dealing additional magic damage to nearby enemies causing them to flee in terror.</p><br />
+       <p>Hecarim summons spectral riders and charges forward, dealing 100/200/300 <span style="color:#66CC00"> (+0.8) magic damage</span> to anyone they strike. </p><br/>
+     
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 1000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+      <div id="dif_pop_up">
+      <p>Difficulty</p>  
+      </div>
+</div>
+
+</body>
+</html>

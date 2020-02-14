@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*html{ overflow-x:hidden;} 
+body{ font-size:12px; margin:0; text-align:center; background:#fff; color:#706a52;}
+*/
+.accordion{ width:297px; height:470px; text-align:left; overflow:hidden; position:relative;}
+.accordion .section{ width:297px; height:314px; position:absolute; left:0; z-index:0;}
+.accordion .section1{ top:0px;background-image:url(../images/f1btn.png);background-repeat:no-repeat;z-index:0;}
+.accordion .section2{ top:54px;background-image:url(../images/f2btn.png);background-repeat:no-repeat;z-index:1;}
+.accordion .section3{ top:108px;background-image:url(../images/f3btn.png);background-repeat:no-repeat;z-index:2;}
+.accordion .section4{ top:162px;background-image:url(../images/f4btn.png);background-repeat:no-repeat;z-index:3;}
+.accordion .section5{ top:216px;background-image:url(../images/f5btn.png);background-repeat:no-repeat;z-index:4;}
+.accordion .section6{ top:270px;background-image:url(../images/f6btn.png);background-repeat:no-repeat;z-index:5;}
+.accordion .box{ width:297px; height:146px;}
+.accordion .box .body{ width:297px; height:146px;background-color:#333333;}
+.accordion .box .body .img{ width:297px; height:146px;text-align:center;}
+.accordion .test1{width:297px;height:314px;position:absolute; left:0;}

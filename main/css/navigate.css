@@ -1,0 +1,262 @@
+@charset "UTF-8";
+#gameNav{
+	color: #FFF;
+	background-image: url(../images/bg_gamenav.png);
+	background-repeat: repeat-y;
+	background-position: right 0px;
+	height: 100%;
+	width: 48px;
+	position: fixed;
+	z-index: 999;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	list-style-type: none;	
+}
+
+#gameNav .wrapper, #footer .wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+
+#gameNav .wrapper > div ul, #footer .wrapper > div ul {
+padding-bottom: 100px;
+}
+#gameNav .wrapper > div, #footer .wrapper > div {
+min-height: 100%;
+margin-bottom: -102px;
+}
+#footer .wrapper > div {
+min-height: 100%;
+margin-bottom: -153px;
+}
+#gameNav .wrapper > div + ul li, #footer .wrapper > div + ul li{
+background-position: 0 0;
+padding: 2px 0 0;
+}
+#gameNav li, #footer li{
+	position: relative;
+	background-image: url(../images/sidebar.png);
+	background-repeat: repeat-x;
+	background-position: 0 bottom;
+	height: 48px;
+	width: 100%;
+	padding: 0 0 2px;
+	overflow: hidden;
+}
+#gameNav li a, #footer li a, #gameNav a, #footer a{
+display: block;
+text-align: center;
+text-indent: -9999px;
+height: 48px;
+vertical-align: top;
+}
+#gameNav li a:hover, #gameNav li a.on{
+background-color: #121212;
+}
+
+#gameNav li a, #footer li a {
+	background-image: url(../images/ico_frame3.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 192px 6000px;
+	background-size: 192px 6000px;
+}
+
+#footer li.util1 a {
+background-position: right -4300px;
+}
+
+#footer li.util1 a:hover, #footer li.util1 a.on {
+background-position: right -5300px;
+}
+
+#footer li.util2 a {
+background-position: right -4400px;
+}
+
+#footer li.util2 a:hover, #footer li.util2 a.on {
+background-position: right -5400px;
+}
+
+#playforfree {
+	position: relative;
+	margin-top: -90px;
+	padding-bottom: 150px;
+	height: 251px;
+}
+
+#playforfree a {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 90px;
+	height: 251px;
+	overflow: hidden;
+	background-image: url(../images/playforfree.jpg);
+}
+
+#playforfree a:hover {
+	background-position: -200px 0px;	
+}
+
+#footer li.util11 a {
+background-position: right -4450px;
+}
+
+#footer li.util11 a:hover{
+background-position: right -5450px;
+}
+
+#footer li.util3 a {
+background-position: right -4250px;
+}
+
+#footer li.util3 a:hover{
+background-position: right -5250px;
+}
+#footer li.jp-play a {
+	background-position: right -4500px;
+
+}
+
+#footer li.jp-play a:hover{
+background-position: right -5500px;
+
+}
+.jp-play a {
+	background-position: right -4500px;
+
+}
+
+.jp-play a:hover{
+background-position: right -5500px;
+
+}
+.jp-pause a {
+	
+	background-position: right -4350px;
+	
+}
+
+.jp-pause a:hover{
+background-position: right -5350px;
+}
+
+#gameNav li.nav1 a {
+background-position: 0  0px;
+}
+
+#gameNav li.nav1 a:hover, #gameNav li.nav1 a.on {
+background-position: 0 -1000px;
+}
+
+#gameNav li.nav2 a {
+background-position: 0 -50px;
+}
+
+#gameNav li.nav2 a:hover, #gameNav li.nav2 a.on {
+background-position: 0 -1050px;
+}
+#gameNav li.nav3 a {
+background-position: 0 -100px;
+}
+
+#gameNav li.nav3 a:hover, #gameNav li.nav3 a.on {
+background-position: 0 -1100px;
+}
+
+#gameNav li.nav4 a {
+background-position: 0 -150px;
+}
+
+#gameNav li.nav4 a:hover, #gameNav li.nav4 a.on {
+background-position: 0 -1150px;
+}
+
+#gameNav li.nav5 a {
+background-position: 0 -200px;
+}
+
+#gameNav li.nav5 a:hover, #gameNav li.nav5 a.on {
+background-position: 0 -1200px;
+}
+
+#gameNav li.nav6 a {
+background-position: 0 -250px;
+}
+
+#gameNav li.nav6 a:hover, #gameNav li.nav6 a.on {
+background-position: 0 -1250px;
+}
+
+#gameNav li.nav7 a {
+background-position: 0 -300px;
+}
+
+#gameNav li.nav7 a:hover, #gameNav li.nav7 a.on {
+background-position: 0 -1300px;
+}
+
+#gameNav li.nav8 a {
+background-position: 0 -350px;
+}
+
+#gameNav li.nav8 a:hover, #gameNav li.nav8 a.on {
+background-position: 0 -1350px;
+}
+
+#gameNav li.nav9 a {
+background-position: 0 -400px;
+}
+
+#gameNav li.nav9 a:hover, #gameNav li.nav9 a.on {
+background-position: 0 -1400px;
+}
+
+#gameNav li.nav10 a {
+background-position: 0 -450px;
+}
+
+#gameNav li.nav10 a:hover, #gameNav li.nav10 a.on {
+background-position: 0 -1450px;
+}
+
+#gameNav li.nav11 a {
+background-position: 0 -500px;
+}
+
+#gameNav li.nav11 a:hover, #gameNav li.nav11 a.on {
+background-position: 0 -1500px;
+}
+
+#gameNav li.nav12 a {
+background-position: 0 -550px;
+}
+
+#gameNav li.nav12 a:hover, #gameNav li.nav12 a.on {
+background-position: 0 -1550px;
+}
+
+#gameNav li.nav13 a {
+background-position: 0 -600px;
+}
+
+#gameNav li.nav13 a:hover, #gameNav li.nav13 a.on {
+background-position: 0 -1600px;
+}
+
+#gameNav li.nav14 a {
+background-position: 0 -650px;
+}
+
+#gameNav li.nav14 a:hover, #gameNav li.nav14 a.on {
+background-position: 0 -1650px;
+}
+
+#gameNav li.nav15 a {
+background-position: 0 -700px;
+}
+
+#gameNav li.nav15 a:hover, #gameNav li.nav15 a.on {
+background-position: 0 -1700px;
+}

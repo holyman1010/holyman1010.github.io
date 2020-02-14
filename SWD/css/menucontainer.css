@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menuContainer{background-image:url(../images/menubg.png);width:968px;height:719px;position:absolute;left: 18px;top: 230px;overflow:hidden;background-repeat:no-repeat;
+}
+#menucontent{position:relative;width:968px;height:719px;/*background-color:#0F9;*/}

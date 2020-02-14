@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.newsTxt2{font-family:微軟正黑體,細明體, Arial,Verdana,SunSans-Regular, Sans-Serif;font-size:15px; color:#FFFFFF;text-shadow: black 0 1px 0;}
+.newsTxt2{	/*position:absolute;	*/width:700px;	height:135px; margin-left:18px; margin-top:50px;}
+.newsTxt2 li{height:45px;display: block;width:760px;color:#FFFFFF; border-bottom:1px dashed #F00;*margin-top:-3px;}
+.newscontent{margin-left:5px;width:630px;line-height:45px;float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:block;letter-spacing:1px;}
+.newsIcon{float:left;line-height:45px; padding-top:0px;}
+.newsIcon img{padding-top:16px;padding-left:5px;}
+.newsDate{line-height:45px;font-size:12px; color:#FF0;height:45px; width:80px; float:right; text-align:right; padding-right:5px;}
+.newsTxt2 ul li:hover{background-color:#820503; color:#FF0; border: 1px solid #FFF;}
+.searchTxt{position:absolute;width:107px;height:20px;background-image:url(../images/searchTxtBg.jpg);background-repeat:no-repeat;left: 605px;top: 532px;padding-left:5px;}
+.searchContent{background-color:transparent;border:none;font-size:12px;width:107px;overflow:hidden;color:#da2b00;height:20px;line-height:20px;}
+.searchContent:focus{border:none;color:#d7d7d7;}
+.searchBtn{text-indent:-9999px;position:absolute;width:51px;height:22px;left: 725px;top: 532px;background-image:url(../images/searchbtn.png);background-repeat:no-repeat;cursor:pointer;}
+.searchBtn:hover{background-position:bottom;}
+/* pagebtn */
+.pageNumber{position:absolute;left: 205px;top: 521px;width:370px;}
+.pagination {font-family: Arial,Verdana,SunSans-Regular, Sans-Serif,細明體,微軟正黑體;overflow: hidden;font-size: 9pt;padding: 10px 0;}
+.pagination ul {list-style: none;line-height: 16px;}
+.pagination li {display: inline;}
+.pagination {text-align:center;}
+.pagination a {	padding: 2px;margin: 2px;text-decoration: underline;color: #ce0300;	vertical-align:top;}
+.pagination a:hover{color: #FF0;}
+.pagination a:active {color: #820002;}
+.pagination li.current {vertical-align:top;font-weight:bold;color: #FF0;}
+.pagination img{margin:0px -5px 0px -5px;}
+
+/*內頁新聞內容文章----Start--- */
+.newsHeadTxt{ background-image:url(../images/newsTitleBG.jpg); width:788px; height:40px; margin-left:6px; margin-top:6px;font-family:微軟正黑體,細明體, Arial,Verdana,SunSans-Regular, Sans-Serif;text-shadow: black 0 1px 0;}
+.newsIcon{float:left;height:18px;margin-left:5px;margin-top:0px;width:18px}
+.newsIcon2{float:left;height:18px;margin-left:5px;margin-top:13px;width:18px}
+.newsTitleTxt{color:#FFF;display:block;float:left;font-size:15px;height:40px;line-height:40px;margin-left:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:660px}
+.newsDate{color:#FF0;float:right;font-size:12px;font-weight:700;line-height:40px;text-align:right;width:90px; padding-right:10px;}
+.newsTxtShow{ width:780px; height:520px; margin-left:10px; margin-top:5px;}
+
+
+#mcs_container{width:780px; height:515px;margin-left:5px; margin-top:5px;}
+#mcs_container .customScrollBox{position:relative; height:100%; overflow:hidden;}
+#mcs_container .customScrollBox .container{position:relative; width:755px; top:0; float:left;}
+#mcs_container .customScrollBox .content{clear:both;color:#dddddd;font-family:新細明體,細明體,Arial,sans-serif; font-size:13px; line-height:20px;letter-spacing:2px;}
+
+#mcs_container .dragger_container{position:relative; width:9px; height:525px; float:left; margin:0 0 0 10px; cursor:pointer; box-shadow:inset 0 0 10px #ff0004; -moz-box-shadow:inset 0 0 10px #393939; -webkit-box-shadow:inset 0 0 10px #393939;background-image:url(../images/ieSuckBar.png) \9;*background-image:url(../images/ieSuckBar.png) \9;}
+#mcs_container .dragger{position:absolute; width:8px; height:60px; background:#d90800; text-align:center; line-height:60px; color:#d90800; overflow:hidden; border-left:1px solid #d90800; cursor:s-resize;}
+#mcs_container .dragger_pressed{position:absolute; width:9px; height:60px; background:#ff7e00; text-align:center; margin-left:1px; line-height:60px; color:#777; overflow:hidden; border-left:1px solid #ff7e00; cursor:move;}
+/*內頁新聞內容文章------END------ */

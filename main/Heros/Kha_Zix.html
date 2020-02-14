@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kha'Zix</title>
+ <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Kha'Zix skill//
+	     $(function() {
+	  var $attact = $('#kha_zix #Attact');
+	  var $Health = $('#kha_zix #Health');
+	  var $Spells = $('#kha_zix #Spells');
+       var $Difficulty = $('#kha_zix #Difficulty');
+	   var $Kh_skill = $('#Kh_skill');
+	   var $Kh_name = $('#Kh_name');
+	   var $story = $('#Kh_story');
+	     $Kh_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Kh_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"176px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"77px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"117px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Kha_Zix/Kha'Zix.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Kh_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="kha_zix">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Kh_name"><img src="../images/skills/Kha_Zix/Kha_Zix.png" width="550" height="130" /></div>
+<div id="Kh_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">A</span> vicious Void predator, Kha'Zix infiltrated Valoran to devour the land's most promising creatures. With each kill he absorbs his prey's strength, evolving to grow more powerful. Kha'Zix hungers most to conquer and consume Rengar, the one beast he considers his equal.</p>
+                <br/>
+                <p>When Kha'Zix crossed over into this world, he was fragile and ravenous. The animals he first encountered were too small to fuel the rapid evolution he craved. Kha'Zix focused his hunger on the most dangerous creatures he could find, risking his life to satisfy his need. With each kill he feasted and changed, becoming a stronger, faster predator. Kha'Zix soon chased his prey with unrestrained aggression, believing he was unstoppable. One day, while savoring a fresh kill, the predator became the prey. From cover a creature pounced in a blur of fangs and steel, tackling him to the ground. It roared in his face slashing and clawing, and Kha'Zix felt his blood spill for the first time. Screeching in fury, he sliced at the brute's eye driving it back. They fought from sunset to sunrise. Finally, near death, they reluctantly separated. As his wounds closed, Kha'Zix burned with anticipation at the idea of devouring one who could match the Void's strength. He resumed his search for powerful prey with renewed vigor. Someday, Kha'Zix will feast on Rengar.</p>
+                <br/>
+                <p style="color:#FFCC00">''Kill. Consume. Adapt.''-- Kha'Zix</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+   <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kha_Zix/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Unseen Threat - </h3>
+        <p style="color:#FF00FF">When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy Champion to deal bonus magic damage and slow.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kha_Zix/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Taste Their Fear - </h3>
+        <p style="color:#FF00FF">Kha'Zix passively marks enemies that are isolated from nearby allies. Taste Their Fear deals physical damage to a single target. Damage increased on isolated targets. If he chooses to Evolve Enlarged Claws, damage to isolated targets increases dramatically. Kha'Zix also gains increased range on his basic attacks and Taste Their Fear.</p><br />
+        <p>Passive: Marks enemies who are isolated from nearby allies.</p><br />
+        <p>Active: Deals 70/100/130/160/190<span style="color:#FFCC00"> (+1.5) physical damage</span>. If the target is isolated, the amount is increased to 100/145/190/235/280<span style="color:#FFCC00"> (+2.0) physical damage</span>.</p><br/>
+        <p>Evolved Enlarged Claws: Increases damage to isolated enemies by 12% of their missing health (max 200 vs. monsters). Increases the range of Taste Their Fear and Kha'Zix's basic attacks by 50.</p><br/>
+       <ul>
+       <li>Cost: 25 Mana</li>
+       <li>Range: 325</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kha_Zix/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Void Spike - </h3>
+        <p style="color:#FF00FF">Kha'Zix fires exploding spikes that deal physical damage to all nearby enemies. Kha'Zix is healed if he is also within the explosion radius. If he chooses to Evolve Spike Racks, Void Spike fires three spikes in a cone. This effect consumes Unseen Threat to slow and damage all enemies struck.</p><br />
+        <p>Fires exploding spikes, dealing 75/115/155/195/235<span style="color:#FFCC00"> (+0.9) physical damage</span> to all nearby enemies. Heals Kha'Zix for 40/70/100/130/160<span style="color:#FFCC00"> (+0.5) physical damage</span> if he is within the explosion radius. </p><br />
+        <p>Evolved Spike Racks: Void Spike fires three spikes in a cone. Consumes Unseen Threat to slow and damage all enemies struck.</p><br />
+       <ul>
+       <li>Cost: 60/70/80/90/100 Mana</li>
+       <li>Range: 1000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kha_Zix/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Leap - </h3>
+        <p style="color:#FF00FF">Kha'Zix leaps to an area, dealing phyisical damage upon landing. If he chooses to Evolve Wings, Leap's range increases dramatically. Also, on champion kill or assist, Leap's cooldown resets.</p><br />
+        <p>Leaps to a target area, dealing 65/100/135/170/205<span style="color:#FFCC00"> (+0.8) physical damage</span>.</p><br />
+               <p>Evolved Wings: Increases Leap's range. On champion kill or assist, Leap's cooldown resets.</p><br/>
+       <ul>
+       <li>Cost: 50 Mana</li>
+       <li>Range: 600</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kha_Zix/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Void Assault - </h3>
+        <p style="color:#FF00FF">Each rank allows Kha'Zix to evolve one of his abilities, giving it a unique additional effect. When activated, Void Assault stealths Kha'Zix, triggers Unseen Threat, and increases Movement Speed. If he chooses to Evolve Active Camouflage, Void Assault can be cast three times and Kha'Zix takes reduced damage while in stealth.</p><br />
+        <p>Passive: Ranking up Void Assault allows Kha'Zix to evolve one of his abilities.
+</p><br />
+       <p>Active: Stealths for 1 second. Activates Unseen Threat and increases Kha'Zix's Movement Speed by 40%. Void Assault can be cast a second time within 10 seconds.</p><br/>
+       <p>Evolved Active Camouflage: Void Assault can be cast three times. Kha'Zix takes 40% reduced damage while in stealth.</p><br/>
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+      <div id="dif_pop_up">
+      <p>Difficulty</p>  
+      </div>
+</div>
+
+</body>
+</html>

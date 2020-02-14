@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kayle</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Kayle skill//
+	     $(function() {
+	
+	  var $attact = $('#kayle #Attact');
+	  var $Health = $('#kayle #Health');
+	  var $Spells = $('#kayle #Spells');
+       var $Difficulty = $('#kayle #Difficulty');
+	   var $Ka_skill = $('#Ka_skill');
+	   var $Ka_name = $('#Ka_name');
+	   var $story = $('#Ka_story');
+	
+	     $Ka_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Ka_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"96px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"212px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"115px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"57px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Kayle/Kayle.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Ka_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="kayle">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Ka_name"><img src="../images/skills/Kayle/Kayle.png" width="469" height="130" /></div>
+<div id="Ka_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">I</span>n a world far away where an ancient war still rages, Kayle was a great hero - the strongest of an immortal race committed to destroying evil wherever it could be found. For ten thousand years, Kayle fought tirelessly for her people, wielding her flaming sword forged before time itself. She shielded her delicate features beneath her enchanted armor, the sole remaining masterpiece of an extinct race of craftsmen. Though a beautiful, striking creature, Kayle, now as then, avoids showing her face; war has taken a terrible toll upon her spirit. In her quest for victory, she sometimes would try to lift the wicked up from their morass of evil, but more than often she instead purged those she herself deemed beyond redemption. To Kayle, justice can so often be an ugly thing.</p>
+                <br/>
+                <p>Ten years ago, Kayle's war against evil was nearly won... until her rebellious sister Morgana, a pariah amongst their people, suddenly gained powerful new allies: magicians of a hitherto unknown world called Runeterra. Morgana traded servitude to a number of the summoners in Runeterra's League of Legends for powerful new abilities that, if mastered, threatened to bring Kayle and her people to their knees. To save her world, Kayle had no choice but to make a pact with the League herself. She approached the leader of the League, High Counselor Reginald Ashram, with a deal of her own. In exchange for a thousand years of Kayle's service, Ashram halted all League interference on Kayle's world. With Ashram's disappearance five years ago, Kayle has new causes on Valoran: find out who or what caused Ashram to disappear, defeat her sister Morgana upon the Fields of Justice, and bring her own brand of justice to the League of Legends.</p>
+                <br/>
+                <p style="color:#FFCC00">''In the League of Legends, Justice comes on swift wings.''</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kayle/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Holy Fervor - </h3>
+        <p style="color:#FF00FF">When Kayle attacks a champion, the target loses 3% Armor and Magic Resistance for 5 seconds. This effect stacks up to 5 times.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kayle/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Reckoning - </h3>
+       <p style="color:#FF00FF">Blasts an enemy unit with angelic force, dealing damage and slowing movement speed. While the target is slowed, Kayle inflicts increased damage to them.</p><br />
+         <p>Blasts a target, dealing 60/110/160/210/260 (+1.0)<span style="color:#66CC00"> (+1.0) magic damage</span> and slowing their Movement Speed by 35% for 4 seconds.</p><br />
+         <p>While the target is slowed, Kayle inflicts 6/7/8/9/10% increased damage to them.</p><br/>
+       <ul>
+       <li>Cost: 70/75/80/85/90 Mana</li>
+       <li>Range: 650</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kayle/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Divine Blessing - </h3>
+        <p style="color:#FF00FF">Blesses a target friendly champion, granting them increased movement speed and healing them.</p><br />
+        <p>Blesses an allied champion, increasing their Movement Speed by 18/21/24/27/30% for 3 seconds and healing them for 60/105/150/195/240 <span style="color:#66CC00"> (+0.35) magic damage</span> health.</p><br />
+       <p>Also gains a temporary shield that absorbs 55/80/105/130/155 <span style="color:#66CC00">(+0.45) magic damage</span>.</p><br/>
+       <ul>
+       <li>Cost:<br/> 60/70/80/90/100 Mana</li><br/>
+       <li>Range: 1000</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kayle/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Righteous Fury - </h3>
+        <p style="color:#FF00FF">Ignites Kayle's sword with a holy flame, granting Kayle a ranged splash attack and bonus magic damage.</p><br />
+        <p>Kayle increases her Attack Range by 400 for 10 seconds and her basic attack deals an additional 20/30/40/50/60<span style="color:#66CC00">(+0.4) magic damage</span> on hit.</p><br />
+              <p>In addition, enemies near her target take 20/25/30/35/40% of her Attack Damage plus 20/30/40/50/60 <span style="color:#66CC00">(+0.4) magic damage</span> on attack.</p><br />
+       <ul>
+       <li>Cost: 45 Mana</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Kayle/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Intervention - </h3>
+        <p style="color:#FF00FF">Shields Kayle or an ally for a short time, causing them to be immune to damage.</p><br />
+        <p>Bathes Kayle's target in a holy light, rendering them immune to all damage for 2/2.5/3 seconds.</p><br />
+          
+       <ul>
+       <li>Cost: 100/75/50 Mana</li>
+       <li>Range: 1200</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

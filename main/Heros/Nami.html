@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Nami</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Nami skill//
+	     $(function() {
+	
+	  var $attact = $('#nami #Attact');
+	  var $Health = $('#nami #Health');
+	  var $Spells = $('#nami #Spells');
+       var $Difficulty = $('#nami #Difficulty');
+	   var $Na_skill = $('#Na_skill');
+	   var $Na_name = $('#Na_name');
+	   var $story = $('#Na_story');
+	
+	     $Na_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Na_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"58px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"77px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"155px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Nami/Nami.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Na_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="nami">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Na_name"><img src="../images/skills/Nami/Nami.png" width="407" height="130" /></div>
+<div id="Na_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">N</span>ami channels the primal energies of the ocean, harnessing its mystical restorative properties and commanding the raw power of the tides themselves. Though many doubted her, Nami had the bravery and determination to take on a dangerous quest when no one else would. Now her people believe she is the Tidecaller, a chosen one destined to complete a quest essential to the survival of her entire race.</p>
+                <br/>
+                <p>The Tidecaller's sacred duty is to acquire a moonstone, a powerful object found only in the towering reaches of the surface world. Her people, the Marai, rely on the moonstone's light to ward off the terrors of the depths. However, the stone's power lasts only one hundred years. Before its light fades, the Tidecaller must journey into the Great Deep, retrieve an abyssal pearl, and carry it to the surface. There, on the night of the winter solstice of the hundredth year, the Tidecaller makes a ceremonial exchange with a landwalker bearing a moonstone. By trading the pearl for the moonstone, the Tidecaller ensures the survival of the Marai for another century.</p>
+                <br/>
+                <p>However, in Nami's time, as the hundred years drew to a close, no Tidecaller had been found. Without a chosen one to complete the quest, her people would face disaster, but the Marai waited in faith that the Tidecaller would appear. Nami refused to sit idle, insisting that without a Tidecaller to save them, someone had to act. Bravely, she decided to begin the quest herself and ventured alone into the dangerous depths. None expected her to survive, but after six days of battles with untold horrors, Nami returned with the pearl in hand. The Marai hailed her as the new Tidecaller. All that remained was for Nami to journey to the surface and complete the exchange.</p><br/>
+                <p>When Nami arrived at the surface, however, she found only an empty shore. She waited for days in a mystic cove, unsure of what to do. In all the legends of the Tidecallers, the bearer of the moonstone had never failed to arrive. Nami faced a choice. She knew the surface world only through tale and rumor, but the survival of the Marai depended upon her. Summoning the tide to bear her ashore, Nami began her search for the moonstone and became the first of her kind to explore the world above the ocean. She left her home behind, and vowed not to return until she had completed the Tidecaller's quest.</p><br/>
+                <p style="color:#FFCC00">''I am the tide, and I cannot be turned.''-- Nami</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nami/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Surging Tides - </h3>
+        <p style="color:#FF00FF">When Nami's abilities hit allied champions they gain movement speed for a short duration.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nami/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Aqua Prison - </h3>
+       <p style="color:#FF00FF"> Sends a bubble towards a targeted area, dealing damage and stunning all enemies on impact.</p><br />
+         <p>Sends a bubble towards a targeted area, dealing 75/130/185/240/295 <span style="color:#66CC00"> (+0.65) magic damage</span> to enemies, and stunning them for 1.25 seconds.</p><br />
+       <ul>
+       <li>Cost: 60 Mana</li>
+       <li>Range: 875</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nami/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Ebb and Flow  - </h3>
+        <p style="color:#FF00FF">Unleashes a stream of water that bounces back and forth between allies and enemies, healing allies and damaging enemies.</p><br />
+        <p>Unleashes a stream of water that bounces back and forth between allies and enemies.</p><br/>
+        <p>On Ally Hit: Heals 65/95/125/155/185 <span style="color:#66CC00"> (+0.3) magic damage </span> health and will bounce to a nearby enemy champion.</p><br />
+        <p>On Enemy Hit: Deals 70/110/150/190/230 <span style="color:#66CC00"> (+0.5) magic damage </span> and bounces to a nearby allied champion.</p><br />
+        <p>Bounces to each target only once, and hits up to 3 targets. The damage and healing value is reduced by 15% each bounce.</p><br/>
+       <ul>
+       <li>Cost:<br/> 70/85/100/115/130 Mana</li><br/>
+       <li>Range: 725</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nami/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Tidecaller's Blessing - </h3>
+        <p style="color:#FF00FF">Empowers an allied champion for a short duration. The ally's basic attacks deal bonus magic damage and slow the target.</p><br />
+        <p>Empowers an allied champion for 5 seconds or 3 basic attacks. The ally's basic attacks deal 25/40/55/70/85 <span style="color:#66CC00"> (+0.2) bonus magic damage</span> and slow the target by 15/20/25/30/35% for 1 second.</p><br />
+       
+       <ul>
+       <li>Cost: 55/60/65/70/75 Mana</li>
+       <li>Range: 800</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Nami/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Tidal Wave - </h3>
+        <p style="color:#FF00FF">Summons a massive Tidal Wave that knocks up and slows enemies.</p><br />
+        <p>Summons a Tidal Wave from Nami's position. </p><br/>
+        <p>The Tidal Wave knocks up enemies and slows them by 50/60/70%, dealing 150/250/350<span style="color:#66CC00"> (+0.7) magic damage</span> . The duration of the slow increases based on how far the Tidal Wave has traveled, with a minimum duration of 2 seconds and a maximum of 4 seconds.</p><br />
+        
+              
+       <ul>
+       <li>Cost: 100/150/200 Mana</li>
+       <li>Range: 2550</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

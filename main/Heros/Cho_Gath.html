@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Cho'Gath</title>
+   <link rel="stylesheet" type="text/css" href="../css/normalize.css">
+   <link href="../css/skill.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/website.css" type="text/css" media="screen"/>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../js/jquery.tinyscrollbar.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+			$('#scrollbar1').tinyscrollbar();	
+			 //Cho'Gath skill//
+	     $(function() {
+	
+	  var $attact = $('#cho_gath #Attact');
+	  var $Health = $('#cho_gath #Health');
+	  var $Spells = $('#cho_gath #Spells');
+       var $Difficulty = $('#cho_gath #Difficulty');
+	   var $Ch_skill = $('#Ch_skill');
+	   var $Ch_name = $('#Ch_name');
+	   var $story = $('#Ch_story');
+	
+	     $Ch_skill.stop(false, true).animate({left:"150px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+	   	 $Ch_name.stop(false, true).animate({right:"80px",opacity:"1"},{ duration: 1600, easing: 'easeInOutExpo'});
+		 $story.stop(false, true).animate({opacity:"1"},{ duration: 3000, easing: 'easeInOutExpo'});
+         $attact.stop(false, true).animate({width:"56px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Health.stop(false, true).animate({width:"76px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		 $Spells.stop(false, true).animate({width:"156px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  $Difficulty.stop(false, true).animate({width:"136px"},{ duration: 2400, easing: 'easeInOutExpo'});
+		  
+      });
+		});
+    </script>
+     
+   <script type="text/javascript" src="../js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="../scripts/swfobject.js"></script>
+	<script type="text/javascript" src="../js/skill.js"></script>
+<script type="text/javascript">
+var params = {
+        wmode: "transparent",
+    };
+		swfobject.embedSWF("../swf/Cho_Gath/Cho_Gath.swf", "video", "1340", "838", "9.0.0", "../scripts/expressInstall.swf", null, {}, params);
+		</script>
+</head>
+
+<body>
+<div id="link">
+
+<div id="Ch_skill">
+	<ul>
+    <li class="skill_passive"></li>
+		<li class="skill_q"></li>
+		<li class="skill_w"></li>
+		<li class="skill_e"></li>
+		<li class="skill_r"></li>
+	</ul>
+    <div id="skill_animation">
+ <ul id="cho_gath">
+ <li id="Attact"></li>
+ <li id="Health"></li>
+  <li id="Spells"></li>
+    <li id="Difficulty"></li>
+ </ul>
+    </div>
+</div>
+<div id="Ch_name"><img src="../images/skills/Cho_Gath/Cho_Gath.png" width="626" height="130" /></div>
+<div id="Ch_story">
+<div id="scrollbar1">
+		<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+		<div class="viewport">
+			 <div class="overview">
+             	<p><span style="font-size:24px">T</span>here is a place between dimensions, between worlds. To some it is known as the Outside, to others it is the Unknown. To those that truly know, however, it is called the Void. Despite its name, the Void is not an empty place, but rather the home of unspeakable things - horrors not meant for minds of men. Cho'Gath is a creature born of the Void, a thing whose true nature is so awful most will not speak its name. Its fellows have been poking at the walls that divide dimensions for a crack, a way into Runeterra, where they can visit their own personal paradise of horror upon the world. They are called the Voidborn, creatures so ancient and terrible that they have been removed from history altogether. It is rumored that the Voidborn command vast armies of unspeakable creatures on other worlds, that they were once driven from Runeterra by powerful magic lost to antiquity.</p>
+                <br/>
+                <p>If such tales are true, then the rumors that follow must be equally true - that one day, the Voidborn will return. Even now, something dark stirs in Icathia, perverting the summoning rituals of the League to allow the presence of Cho'Gath. It is an alien creature of malice and violence, a thing that causes all but the most stalwart to cringe in fear. Cho'Gath even appears to feed on its predations, growing and swelling as it gorges itself. Worse yet, the creature is intelligent, perhaps greatly so, making most wonder how such a monster could be contained. Fortunately, the power of the League's summoning has confined Cho'Gath's presence exclusively to the League of Legends. It is here that summoners use Cho'Gath's Voidborn abilities to help decide the fate of Runeterra. The Terror of the Void knows what fate it would choose for Runeterra, given half the chance.</p>
+                <br/>
+                <p style="color:#FFCC00">Woe betide the day when Cho'Gath grows weary of the League.</p>
+
+			</div>
+		</div>
+	</div>
+</div>
+  <div id="video"></div>
+   
+     <!-- HIDDEN / POP-UP DIV -->
+          <!-- Passive -->
+      <div id="skill_passive">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Cho_Gath/ability_5.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">Passive</p>
+      </div>
+     
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Carnivore - </h3>
+        <p style="color:#FF00FF">Whenever Cho'Gath kills a unit, he recovers health and mana. The values restored increase with Cho'Gath's level.</p>
+        
+      </div>
+        <!-- Q -->   
+  	 <div id="skill_q">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Cho_Gath/ability_1.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:Q</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Rupture - </h3>
+       <p style="color:#FF00FF">Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.</p><br />
+         <p>Ruptures the ground at target location. Enemies caught in the rupture are launched into the air for 1 second, take 80/135/190/245/305<span style="color:#66CC00"> (+1) magic damage</span>, and are slowed by 60% for 3 seconds.</p><br />
+       <ul>
+       <li>Cost: 90 Mana</li>
+       <li>Range: 950</li>
+       </ul>
+       
+        <p></p>
+       </div>
+  </div>
+           <!-- W -->
+      <div id="skill_w">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Cho_Gath/ability_2.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:W</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Feral Scream - </h3>
+        <p style="color:#FF00FF">Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.</p><br />
+        <p>Silences enemies in a cone for 2/2.25/2.5/2.75/3 second(s) and deals 75/125/175/225/275<span style="color:#66CC00"> (+0.7) magic damage</span>.</p><br />
+       
+       <ul>
+       <li>Cost:<br/> 70/80/90/100/110 Mana</li><br/>
+       <li>Range: 300</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+            <!-- E -->
+      <div id="skill_e">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Cho_Gath/ability_3.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:E</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Vorpal Spikes - </h3>
+        <p style="color:#FF00FF">Cho'Gath's attacks passively release deadly spikes, dealing damage to all enemy units in front of him.</p><br />
+        <p>Toggle: Basic attacks launch spikes that deal 20/35/50/65/80<span style="color:#66CC00">(+0.3) magic damage</span>. Spikes grow wider as Cho'gath levels.</p><br />
+       
+       <ul>
+       <li>Cost: No Cost</li>
+       <li>Range: 0</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- R -->
+      <div id="skill_r">
+      <div id="skill_pic"> 
+     <img src="../images/skills/Cho_Gath/ability_4.png" width="64" height="64" />
+      <p style="color:#FFCC00; font-weight: bolder; font-size: 14px;">key:R</p>
+      </div>
+     <div id="skill_txt">
+      <h3 style="color:#CCCC00; font-weight: bolder; font-size: 14px; margin-bottom: 5px;">Feast - </h3>
+        <p style="color:#FF00FF">Devours an enemy unit, dealing a high amount of damage that ignores defenses. If the target is killed, Cho'Gath grows, gaining maximum health (maximum 6 stacks). Cho'Gath loses half of his stacks upon death.</p><br />
+        <p>Hungrily devours an enemy dealing 300/475/650<span style="color:#66CC00">  (+0.7) true damage</span> to Champions, or 1000<span style="color:#66CC00">  (+0.7) true damage</span> to minions. </p><br />
+            <p>If the enemy is killed by Feast, Cho'Gath grows, gaining 90/120/150 maximum Health (maximum 6 stacks). Loses half of his stacks on death.</p><br />
+             
+       <ul>
+       <li>Cost: 100 Mana</li>
+       <li>Range: 150</li>
+       </ul>
+       
+        <p></p>
+        </div>
+      </div>
+           <!-- attact -->
+      <div id="atk_pop_up">
+      <p>Attact</p>  
+      </div>
+          <!-- health -->
+      <div id="hea_pop_up">
+      <p>Health</p>  
+      </div>
+             <!-- spells -->
+      <div id="spe_pop_up">
+      <p>Spells</p>  
+      </div>
+               <!-- difficulty -->
+  <div id="dif_pop_up">
+      <p>Difficulty</p>  
+  </div>
+</div>
+
+</body>
+</html>

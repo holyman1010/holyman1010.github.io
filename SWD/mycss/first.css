@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+a{
+ outline: none; /* for Firefox */
+ hlbr:expression(this.onFocus=this.blur()); /* for IE */
+}
+body{
+	font-size: 12px;
+	font-family: 細明體,Verdana, Arial, SunSans-Regular, Sans-Serif;
+	padding:0;
+	margin:0;
+	background-image:url(../images/big_backgroundIMG.jpg);
+	background-position:center;
+	background-position:top;
+	background-attachment:fixed;
+}
+#content{
+	width:960px;
+	margin:0 auto;
+	position: relative;
+	background-image:url(../images/big_backgroundIMG.jpg);
+	background-position:center;
+	background-position:top;
+	background-attachment:fixed;
+}
+#gyoLogo{position:absolute;left: 364px;top: 0px;}
+#hmenu{width:363px;height:35px;position:absolute;background-image:url(../images/urlLink_bg.png);left: 597px;top: 0px;list-style: none;}
+#hmenu li {float: left;}
+#hmenu li a {display: block;height: 35px; /* 圖片的高/2 */line-height: 35px;	/* ie suck */text-indent: -9999px;}
+#hmenu a.v1{width:127px;background-image:url(../images/urllist_01.png);}
+#hmenu a.v2{width:127px;background-image:url(../images/urllist_02.png);}
+#hmenu a.v3{width:109px;background-image:url(../images/urllist_03.png);}
+#downloadBTN{width:431px;height:66px;background-image:url(../images/downloadBG.png);position:absolute;left: 257px;top: 164px;}
+#hmenu2 li {float: left;margin-left:17px;}
+#hmenu2 li a {margin-top:10px;display: block;height: 40px; /* 圖片的高/2 */line-height: 40px;	/* ie suck */}
+#hmenu2 a.v4{width:185px;background-image:url(../images/download01.png);}
+#hmenu2 a.v5{margin-left:13px;width:185px;background-image:url(../images/download02.png);}
+
+/* meet CSS ToolTip */
+a.v5{
+z-index:9;
+color:#690;
+border-bottom:1px dotted #690;
+text-decoration:none;
+}
+a.v5:hover{
+position:relative;
+z-index:99999;
+}
+a.v5 span{
+display:none;
+}
+a.v5:hover span{
+display:block;
+position:absolute;
+float:left;
+white-space:nowrap;
+left:200px;
+background:#003366;
+border:1px solid #000;
+color:#FFFF00;
+padding:1px 5px;
+margin:0;
+z-index:9;
+}
+/* end of meet CSS ToolTip */
+
+
+#sixFeatures{
+	position:absolute;
+	width:322px;
+	height:561px;
+	background-image:url(../images/sixFeaturesBG.png);
+	left: 4px;
+	top: 232px;
+}
+#page{
+	position:absolute;
+	left: 11px;
+	top: 77px;
+}
+#right_content{
+	position:absolute;
+	width:634px;
+	height:557px;
+	left: 327px;
+	top: 233px;
+}
+#copyRight{
+	position:absolute;
+	left: 55px;
+	top: 798px;
+}
+#fbcontainer{
+	position:absolute;
+	width:350px;
+	left: 602px;
+	top: 48px;
+}
