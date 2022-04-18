@@ -864,13 +864,14 @@ animation-delay: .5s;
 footer {
 	padding:150px 0px 150px 0px;
 	overflow:hidden;
-	max-width:1990px;
+	/*max-width:1990px;*/
 	background-image:url(../images/footer-bg-wide.jpg);
 	background-size:120%;
 	background-repeat:no-repeat;
 	background-position:center center;
 	background-attachment:fixed;
 	background-color:#222627;
+	margin: 0 auto;
 }
 
 .fa-holder {
