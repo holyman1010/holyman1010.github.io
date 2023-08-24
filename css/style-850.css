@@ -27,7 +27,7 @@ ul {
 @font-face {
 	font-family: 'Conv_pnl';
 	src: url('../images/pnl.eot');
-	src: local('☺'), url('../images/pnl.woff') format('woff'), url('../images/pnl.ttf') format('truetype'), url('../images/pnl.svg') format('svg');
+	src: local('☺'), url('../images/pnl.ttf') format('truetype'), url('../images/pnl.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -35,7 +35,7 @@ ul {
 @font-face {
 	font-family: 'Conv_pnr';
 	src: url('../images/pnr.eot');
-	src: local('☺'), url('../images/pnr.woff') format('woff'), url('../images/pnr.ttf') format('truetype'), url('../images/pnr.svg') format('svg');
+	src: local('☺'), url('../images/pnr.ttf') format('truetype'), url('../images/pnr.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -43,7 +43,7 @@ ul {
 @font-face {
 	font-family: 'Conv_pnb';
 	src: url('../images/pnb.eot');
-	src: local('☺'), url('../images/pnb.woff') format('woff'), url('../images/pnb.ttf') format('truetype'), url('../images/pnb.svg') format('svg');
+	src: local('☺'), url('../images/pnb.ttf') format('truetype'), url('../images/pnb.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -51,7 +51,7 @@ ul {
 @font-face {
 	font-family: 'Conv_pnsb';
 	src: url('../images/pnsb.eot');
-	src: local('☺'), url('../images/pnsb.woff') format('woff'), url('../images/pnsb.ttf') format('truetype'), url('../images/pnsb.svg') format('svg');
+	src: local('☺'), url('../images/pnsb.ttf') format('truetype'), url('../images/pnsb.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -59,7 +59,7 @@ ul {
 @font-face {
 	font-family: 'Conv_msthree';
 	src: url('../images/msthree.eot');
-	src: local('☺'), url('../images/msthree.woff') format('woff'), url('../images/msthree.ttf') format('truetype'), url('../images/msthree.svg') format('svg');
+	src: local('☺'), url('../images/msthree.ttf') format('truetype'), url('../images/msthree.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -584,7 +584,8 @@ animation-delay: .7s;
 .hit-me-up a {
 	color:#545455;
 	padding:13px;
-	text-transform:uppercase;
+	background-color: white;
+/*	text-transform:uppercase;*/
 	text-decoration:none;
 	transition:ease .25s all;
 	-webkit-transition:ease .25s all;
